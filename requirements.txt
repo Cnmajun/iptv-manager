@@ -1,1 +1,5 @@
-ZmFzdGFwaT49MC4xMTUKdXZpY29ybltzdGFuZGFyZF0+PTAuMzAKc3FsYWxjaGVteT49Mi4wCmFwc2NoZWR1bGVyPj0zLjEwCmh0dHB4Pj0wLjI3Cg==
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+apscheduler>=3.10
+httpx>=0.27
