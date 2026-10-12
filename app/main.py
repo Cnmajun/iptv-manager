@@ -1,1 +1,395 @@
-IiIiSVBUViDorqLpmIXnrqHnkIbmnI3liqHvvJrlpJrmupDogZrlkIggLyDlrprml7bmm7TmlrAgLyDmlLnlkI3liKDlj7DlvZLnsbsgLyDlkIzlkI3lkIjlubYgLyDlrprliLbovpPlh7rjgIIiIiIKaW1wb3J0IGpzb24KaW1wb3J0IGxvZ2dpbmcKaW1wb3J0IG9zCmZyb20gY29udGV4dGxpYiBpbXBvcnQgYXN5bmNjb250ZXh0bWFuYWdlcgpmcm9tIHVybGxpYi5wYXJzZSBpbXBvcnQgcXVvdGUKCmZyb20gZmFzdGFwaSBpbXBvcnQgRmFzdEFQSSwgRGVwZW5kcywgSFRUUEV4Y2VwdGlvbiwgUXVlcnkKZnJvbSBmYXN0YXBpLnJlc3BvbnNlcyBpbXBvcnQgRmlsZVJlc3BvbnNlLCBQbGFpblRleHRSZXNwb25zZQpmcm9tIGZhc3RhcGkuc3RhdGljZmlsZXMgaW1wb3J0IFN0YXRpY0ZpbGVzCmZyb20gcHlkYW50aWMgaW1wb3J0IEJhc2VNb2RlbApmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IGZ1bmMsIG9yXwpmcm9tIHNxbGFsY2hlbXkub3JtIGltcG9ydCBTZXNzaW9uCgpmcm9tIC5kYiBpbXBvcnQgQmFzZSwgZW5naW5lLCBnZXRfZGIKZnJvbSAubW9kZWxzIGltcG9ydCBTb3VyY2UsIENoYW5uZWwsIFBsYXlsaXN0CmZyb20gLiBpbXBvcnQgc2NoZWR1bGVyIGFzIHNjaGVkCmZyb20gLmZldGNoZXIgaW1wb3J0IGZldGNoX3NvdXJjZQpmcm9tIC5tM3UgaW1wb3J0IGJ1aWxkX20zdSwgbm9ybWFsaXplX25hbWUKCmxvZ2dpbmcuYmFzaWNDb25maWcobGV2ZWw9bG9nZ2luZy5JTkZPKQpsb2cgPSBsb2dnaW5nLmdldExvZ2dlcigiaXB0diIpCgpTVEFUSUNfRElSID0gb3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICIuLiIsICJzdGF0aWMiKQoKCkBhc3luY2NvbnRleHRtYW5hZ2VyCmFzeW5jIGRlZiBsaWZlc3BhbihhcHA6IEZhc3RBUEkpOgogICAgQmFzZS5tZXRhZGF0YS5jcmVhdGVfYWxsKGVuZ2luZSkKICAgICMg6L276YeP6L+B56e777ya6ICB5bqT6KGlIGJhY2t1cF91cmxzIOWIlwogICAgd2l0aCBlbmdpbmUuYmVnaW4oKSBhcyBjb25uOgogICAgICAgIGNvbHMgPSBbclsxXSBmb3IgciBpbiBjb25uLmV4ZWNfZHJpdmVyX3NxbCgiUFJBR01BIHRhYmxlX2luZm8oY2hhbm5lbHMpIikuZmV0Y2hhbGwoKV0KICAgICAgICBpZiAiYmFja3VwX3VybHMiIG5vdCBpbiBjb2xzOgogICAgICAgICAgICBjb25uLmV4ZWNfZHJpdmVyX3NxbCgiQUxURVIgVEFCTEUgY2hhbm5lbHMgQUREIENPTFVNTiBiYWNrdXBfdXJscyBURVhUIERFRkFVTFQgJ1tdJyIpCiAgICBzY2hlZC5zdGFydCgpCiAgICB5aWVsZAogICAgc2NoZWQuc2h1dGRvd24oKQoKCmFwcCA9IEZhc3RBUEkodGl0bGU9IklQVFYgTWFuYWdlciIsIHZlcnNpb249IjAuMS4wIiwgbGlmZXNwYW49bGlmZXNwYW4pCgoKIyAtLS0tLS0tLS0tIOiuoumYhea6kCAtLS0tLS0tLS0tCmNsYXNzIFNvdXJjZUluKEJhc2VNb2RlbCk6CiAgICBuYW1lOiBzdHIKICAgIHVybDogc3RyCiAgICBlbmFibGVkOiBib29sID0gVHJ1ZQogICAgaW50ZXJ2YWxfaG91cnM6IGludCA9IDEyCgoKQGFwcC5nZXQoIi9hcGkvc291cmNlcyIpCmRlZiBsaXN0X3NvdXJjZXMoZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgcmV0dXJuIFsKICAgICAgICB7CiAgICAgICAgICAgICJpZCI6IHMuaWQsICJuYW1lIjogcy5uYW1lLCAidXJsIjogcy51cmwsICJlbmFibGVkIjogcy5lbmFibGVkLAogICAgICAgICAgICAiaW50ZXJ2YWxfaG91cnMiOiBzLmludGVydmFsX2hvdXJzLAogICAgICAgICAgICAibGFzdF9mZXRjaCI6IHMubGFzdF9mZXRjaC5pc29mb3JtYXQoKSBpZiBzLmxhc3RfZmV0Y2ggZWxzZSBOb25lLAogICAgICAgICAgICAibGFzdF9zdGF0dXMiOiBzLmxhc3Rfc3RhdHVzLCAibGFzdF9tZXNzYWdlIjogcy5sYXN0X21lc3NhZ2UsCiAgICAgICAgICAgICJjaGFubmVsX2NvdW50Ijogcy5jaGFubmVsX2NvdW50LAogICAgICAgIH0KICAgICAgICBmb3IgcyBpbiBkYi5xdWVyeShTb3VyY2UpLm9yZGVyX2J5KFNvdXJjZS5pZCkuYWxsKCkKICAgIF0KCgpAYXBwLnBvc3QoIi9hcGkvc291cmNlcyIpCmRlZiBjcmVhdGVfc291cmNlKGJvZHk6IFNvdXJjZUluLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICBzID0gU291cmNlKG5hbWU9Ym9keS5uYW1lLnN0cmlwKCksIHVybD1ib2R5LnVybC5zdHJpcCgpLAogICAgICAgICAgICAgICBlbmFibGVkPWJvZHkuZW5hYmxlZCwgaW50ZXJ2YWxfaG91cnM9bWF4KDEsIGJvZHkuaW50ZXJ2YWxfaG91cnMpKQogICAgZGIuYWRkKHMpCiAgICBkYi5jb21taXQoKQogICAgZGIucmVmcmVzaChzKQogICAgc2NoZWQuc2NoZWR1bGVfc291cmNlKHMpCiAgICByZXR1cm4geyJpZCI6IHMuaWR9CgoKQGFwcC5wdXQoIi9hcGkvc291cmNlcy97c2lkfSIpCmRlZiB1cGRhdGVfc291cmNlKHNpZDogaW50LCBib2R5OiBTb3VyY2VJbiwgZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgcyA9IGRiLmdldChTb3VyY2UsIHNpZCkKICAgIGlmIG5vdCBzOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDA0LCAic291cmNlIG5vdCBmb3VuZCIpCiAgICBzLm5hbWUsIHMudXJsID0gYm9keS5uYW1lLnN0cmlwKCksIGJvZHkudXJsLnN0cmlwKCkKICAgIHMuZW5hYmxlZCwgcy5pbnRlcnZhbF9ob3VycyA9IGJvZHkuZW5hYmxlZCwgbWF4KDEsIGJvZHkuaW50ZXJ2YWxfaG91cnMpCiAgICBkYi5jb21taXQoKQogICAgc2NoZWQuc2NoZWR1bGVfc291cmNlKHMpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKQGFwcC5kZWxldGUoIi9hcGkvc291cmNlcy97c2lkfSIpCmRlZiBkZWxldGVfc291cmNlKHNpZDogaW50LCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICBzID0gZGIuZ2V0KFNvdXJjZSwgc2lkKQogICAgaWYgbm90IHM6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDQsICJzb3VyY2Ugbm90IGZvdW5kIikKICAgIHNjaGVkLnJlbW92ZV9zb3VyY2Uoc2lkKQogICAgZGIucXVlcnkoQ2hhbm5lbCkuZmlsdGVyKENoYW5uZWwuc291cmNlX2lkID09IHNpZCkuZGVsZXRlKCkKICAgIGRiLmRlbGV0ZShzKQogICAgZGIuY29tbWl0KCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZX0KCgpAYXBwLnBvc3QoIi9hcGkvc291cmNlcy97c2lkfS9yZWZyZXNoIikKZGVmIHJlZnJlc2hfc291cmNlKHNpZDogaW50KToKICAgIHJldHVybiBmZXRjaF9zb3VyY2Uoc2lkKQoKCiMgLS0tLS0tLS0tLSDpopHpgZMgLS0tLS0tLS0tLQpjbGFzcyBDaGFubmVsUGF0Y2goQmFzZU1vZGVsKToKICAgIG5hbWU6IHN0ciB8IE5vbmUgPSBOb25lCiAgICBjYXRlZ29yeTogc3RyIHwgTm9uZSA9IE5vbmUKICAgIGVuYWJsZWQ6IGJvb2wgfCBOb25lID0gTm9uZQoKCmRlZiBfY2hhbm5lbF9kaWN0KGM6IENoYW5uZWwpIC0+IGRpY3Q6CiAgICB0cnk6CiAgICAgICAgYmFja3VwcyA9IGpzb24ubG9hZHMoYy5iYWNrdXBfdXJscyBvciAiW10iKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBiYWNrdXBzID0gW10KICAgIHJldHVybiB7CiAgICAgICAgImlkIjogYy5pZCwgIm5hbWUiOiBjLm5hbWUsICJub3JtX25hbWUiOiBjLm5vcm1fbmFtZSwgIm9yaWdfbmFtZSI6IGMub3JpZ19uYW1lLAogICAgICAgICJ1cmwiOiBjLnVybCwgImxvZ28iOiBjLmxvZ28sICJjYXRlZ29yeSI6IGMuY2F0ZWdvcnksCiAgICAgICAgInNvdXJjZV9pZCI6IGMuc291cmNlX2lkLCAic291cmNlX25hbWUiOiBjLnNvdXJjZV9uYW1lLAogICAgICAgICJlbmFibGVkIjogYy5lbmFibGVkLCAiYmFja3VwX3VybHMiOiBiYWNrdXBzLAogICAgICAgICJ1cGRhdGVkX2F0IjogYy51cGRhdGVkX2F0Lmlzb2Zvcm1hdCgpIGlmIGMudXBkYXRlZF9hdCBlbHNlIE5vbmUsCiAgICB9CgoKQGFwcC5nZXQoIi9hcGkvY2hhbm5lbHMiKQpkZWYgbGlzdF9jaGFubmVscygKICAgIHNlYXJjaDogc3RyID0gIiIsIGNhdGVnb3J5OiBzdHIgPSAiIiwgc291cmNlX2lkOiBpbnQgPSAwLAogICAgZW5hYmxlZDogc3RyID0gIiIsIHBhZ2U6IGludCA9IDEsIHBlcl9wYWdlOiBpbnQgPSBRdWVyeSg1MCwgbGU9NTAwKSwKICAgIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpLAopOgogICAgcSA9IGRiLnF1ZXJ5KENoYW5uZWwpCiAgICBpZiBzZWFyY2g6CiAgICAgICAgbGlrZSA9IGYiJXtzZWFyY2h9JSIKICAgICAgICBxID0gcS5maWx0ZXIob3JfKENoYW5uZWwubmFtZS5saWtlKGxpa2UpLCBDaGFubmVsLm9yaWdfbmFtZS5saWtlKGxpa2UpKSkKICAgIGlmIGNhdGVnb3J5OgogICAgICAgIHEgPSBxLmZpbHRlcihDaGFubmVsLmNhdGVnb3J5ID09IGNhdGVnb3J5KQogICAgaWYgc291cmNlX2lkOgogICAgICAgIHEgPSBxLmZpbHRlcihDaGFubmVsLnNvdXJjZV9pZCA9PSBzb3VyY2VfaWQpCiAgICBpZiBlbmFibGVkID09ICIxIjoKICAgICAgICBxID0gcS5maWx0ZXIoQ2hhbm5lbC5lbmFibGVkID09IFRydWUpICAjIG5vcWE6IEU3MTIKICAgIGVsaWYgZW5hYmxlZCA9PSAiMCI6CiAgICAgICAgcSA9IHEuZmlsdGVyKENoYW5uZWwuZW5hYmxlZCA9PSBGYWxzZSkgICMgbm9xYTogRTcxMgogICAgdG90YWwgPSBxLmNvdW50KCkKICAgIGl0ZW1zID0gcS5vcmRlcl9ieShDaGFubmVsLmNhdGVnb3J5LCBDaGFubmVsLm5hbWUpLm9mZnNldCgocGFnZSAtIDEpICogcGVyX3BhZ2UpLmxpbWl0KHBlcl9wYWdlKS5hbGwoKQogICAgcmV0dXJuIHsidG90YWwiOiB0b3RhbCwgInBhZ2UiOiBwYWdlLCAicGVyX3BhZ2UiOiBwZXJfcGFnZSwKICAgICAgICAgICAgIml0ZW1zIjogW19jaGFubmVsX2RpY3QoYykgZm9yIGMgaW4gaXRlbXNdfQoKCkBhcHAucHV0KCIvYXBpL2NoYW5uZWxzL3tjaWR9IikKZGVmIHVwZGF0ZV9jaGFubmVsKGNpZDogaW50LCBib2R5OiBDaGFubmVsUGF0Y2gsIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgIGMgPSBkYi5nZXQoQ2hhbm5lbCwgY2lkKQogICAgaWYgbm90IGM6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDQsICJjaGFubmVsIG5vdCBmb3VuZCIpCiAgICBpZiBib2R5Lm5hbWUgaXMgbm90IE5vbmUgYW5kIGJvZHkubmFtZS5zdHJpcCgpOgogICAgICAgIGMubmFtZSA9IGJvZHkubmFtZS5zdHJpcCgpCiAgICAgICAgYy5ub3JtX25hbWUgPSBub3JtYWxpemVfbmFtZShjLm5hbWUpCiAgICBpZiBib2R5LmNhdGVnb3J5IGlzIG5vdCBOb25lOgogICAgICAgIGMuY2F0ZWdvcnkgPSBib2R5LmNhdGVnb3J5LnN0cmlwKCkgb3IgIuacquWIhuexuyIKICAgIGlmIGJvZHkuZW5hYmxlZCBpcyBub3QgTm9uZToKICAgICAgICBjLmVuYWJsZWQgPSBib2R5LmVuYWJsZWQKICAgIGRiLmNvbW1pdCgpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKQGFwcC5kZWxldGUoIi9hcGkvY2hhbm5lbHMve2NpZH0iKQpkZWYgZGVsZXRlX2NoYW5uZWwoY2lkOiBpbnQsIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgIGMgPSBkYi5nZXQoQ2hhbm5lbCwgY2lkKQogICAgaWYgbm90IGM6CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDQsICJjaGFubmVsIG5vdCBmb3VuZCIpCiAgICBkYi5kZWxldGUoYykKICAgIGRiLmNvbW1pdCgpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKY2xhc3MgQmF0Y2hJbihCYXNlTW9kZWwpOgogICAgaWRzOiBsaXN0W2ludF0KICAgIG9wOiBzdHIgICMgZGVsZXRlIHwgZW5hYmxlIHwgZGlzYWJsZSB8IHNldF9jYXRlZ29yeSB8IG1lcmdlCiAgICBjYXRlZ29yeTogc3RyIHwgTm9uZSA9IE5vbmUKCgpAYXBwLnBvc3QoIi9hcGkvY2hhbm5lbHMvYmF0Y2giKQpkZWYgYmF0Y2hfY2hhbm5lbHMoYm9keTogQmF0Y2hJbiwgZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgaWRzID0gYm9keS5pZHMKICAgIGlmIG5vdCBpZHM6CiAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAiYWZmZWN0ZWQiOiAwfQogICAgaWYgYm9keS5vcCA9PSAiZGVsZXRlIjoKICAgICAgICBuID0gZGIucXVlcnkoQ2hhbm5lbCkuZmlsdGVyKENoYW5uZWwuaWQuaW5fKGlkcykpLmRlbGV0ZShzeW5jaHJvbml6ZV9zZXNzaW9uPUZhbHNlKQogICAgZWxpZiBib2R5Lm9wID09ICJlbmFibGUiOgogICAgICAgIG4gPSBkYi5xdWVyeShDaGFubmVsKS5maWx0ZXIoQ2hhbm5lbC5pZC5pbl8oaWRzKSkudXBkYXRlKHsiZW5hYmxlZCI6IFRydWV9KQogICAgZWxpZiBib2R5Lm9wID09ICJkaXNhYmxlIjoKICAgICAgICBuID0gZGIucXVlcnkoQ2hhbm5lbCkuZmlsdGVyKENoYW5uZWwuaWQuaW5fKGlkcykpLnVwZGF0ZSh7ImVuYWJsZWQiOiBGYWxzZX0pCiAgICBlbGlmIGJvZHkub3AgPT0gInNldF9jYXRlZ29yeSI6CiAgICAgICAgbiA9IGRiLnF1ZXJ5KENoYW5uZWwpLmZpbHRlcihDaGFubmVsLmlkLmluXyhpZHMpKS51cGRhdGUoCiAgICAgICAgICAgIHsiY2F0ZWdvcnkiOiAoYm9keS5jYXRlZ29yeSBvciAiIikuc3RyaXAoKSBvciAi5pyq5YiG57G7In0pCiAgICBlbGlmIGJvZHkub3AgPT0gIm1lcmdlIjoKICAgICAgICAjIOWQjOWQjeWQiOW5tu+8muS/neeVmeesrOS4gOS4qu+8jOWFtuS9meWcsOWdgOaUtuS4uuWkh+eUqOa6kOWQjuWIoOmZpAogICAgICAgIGNoYW5zID0gZGIucXVlcnkoQ2hhbm5lbCkuZmlsdGVyKENoYW5uZWwuaWQuaW5fKGlkcykpLm9yZGVyX2J5KENoYW5uZWwuaWQpLmFsbCgpCiAgICAgICAgaWYgbGVuKGNoYW5zKSA8IDI6CiAgICAgICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDAwLCAi6Iez5bCR6YCJ5oupIDIg5Liq6aKR6YGT5omN6IO95ZCI5bm2IikKICAgICAgICBrZWVwID0gY2hhbnNbMF0KICAgICAgICB0cnk6CiAgICAgICAgICAgIGJhY2t1cHMgPSBqc29uLmxvYWRzKGtlZXAuYmFja3VwX3VybHMgb3IgIltdIikKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBiYWNrdXBzID0gW10KICAgICAgICBmb3IgYyBpbiBjaGFuc1sxOl06CiAgICAgICAgICAgIGlmIGMudXJsIGFuZCBjLnVybCBub3QgaW4gYmFja3VwcyBhbmQgYy51cmwgIT0ga2VlcC51cmw6CiAgICAgICAgICAgICAgICBiYWNrdXBzLmFwcGVuZChjLnVybCkKICAgICAgICAgICAgZGIuZGVsZXRlKGMpCiAgICAgICAga2VlcC5iYWNrdXBfdXJscyA9IGpzb24uZHVtcHMoYmFja3VwcywgZW5zdXJlX2FzY2lpPUZhbHNlKQogICAgICAgIG4gPSBsZW4oY2hhbnMpIC0gMQogICAgICAgIGRiLmNvbW1pdCgpCiAgICAgICAgcmV0dXJuIHsib2siOiBUcnVlLCAiYWZmZWN0ZWQiOiBuLCAia2VwdF9pZCI6IGtlZXAuaWQsICJiYWNrdXBzIjogbGVuKGJhY2t1cHMpfQogICAgZWxzZToKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwMCwgZiJ1bmtub3duIG9wOiB7Ym9keS5vcH0iKQogICAgZGIuY29tbWl0KCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZSwgImFmZmVjdGVkIjogbn0KCgpAYXBwLmdldCgiL2FwaS9kdXBsaWNhdGVzIikKZGVmIGxpc3RfZHVwbGljYXRlcyhkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLmjInlvZLkuIDljJblkI3liIbnu4TvvIzov5Tlm57mnInph43lpI3nmoTnu4TvvIjlj6rnnIvlkK/nlKjpopHpgZPvvIzlj6/pgInlkKvnpoHnlKjvvInjgIIiIiIKICAgIHJvd3MgPSAoCiAgICAgICAgZGIucXVlcnkoQ2hhbm5lbC5ub3JtX25hbWUsIGZ1bmMuY291bnQoQ2hhbm5lbC5pZCkpCiAgICAgICAgLmdyb3VwX2J5KENoYW5uZWwubm9ybV9uYW1lKQogICAgICAgIC5oYXZpbmcoZnVuYy5jb3VudChDaGFubmVsLmlkKSA+IDEpCiAgICAgICAgLm9yZGVyX2J5KGZ1bmMuY291bnQoQ2hhbm5lbC5pZCkuZGVzYygpKQogICAgICAgIC5saW1pdCgyMDApCiAgICAgICAgLmFsbCgpCiAgICApCiAgICBncm91cHMgPSBbXQogICAgZm9yIG5vcm0sIGNudCBpbiByb3dzOgogICAgICAgIGNoYW5zID0gZGIucXVlcnkoQ2hhbm5lbCkuZmlsdGVyKENoYW5uZWwubm9ybV9uYW1lID09IG5vcm0pLm9yZGVyX2J5KENoYW5uZWwuaWQpLmFsbCgpCiAgICAgICAgZ3JvdXBzLmFwcGVuZCh7Im5vcm1fbmFtZSI6IG5vcm0sICJjb3VudCI6IGNudCwKICAgICAgICAgICAgICAgICAgICAgICAiY2hhbm5lbHMiOiBbX2NoYW5uZWxfZGljdChjKSBmb3IgYyBpbiBjaGFuc119KQogICAgcmV0dXJuIHsiZ3JvdXBzIjogZ3JvdXBzLCAidG90YWxfZ3JvdXBzIjogbGVuKGdyb3Vwcyl9CgoKQGFwcC5nZXQoIi9hcGkvY2F0ZWdvcmllcyIpCmRlZiBsaXN0X2NhdGVnb3JpZXMoZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgcm93cyA9ICgKICAgICAgICBkYi5xdWVyeShDaGFubmVsLmNhdGVnb3J5LCBmdW5jLmNvdW50KENoYW5uZWwuaWQpKQogICAgICAgIC5ncm91cF9ieShDaGFubmVsLmNhdGVnb3J5KQogICAgICAgIC5vcmRlcl9ieShDaGFubmVsLmNhdGVnb3J5KQogICAgICAgIC5hbGwoKQogICAgKQogICAgcmV0dXJuIFt7Im5hbWUiOiByWzBdIG9yICLmnKrliIbnsbsiLCAiY291bnQiOiByWzFdfSBmb3IgciBpbiByb3dzXQoKCkBhcHAuZ2V0KCIvYXBpL3N0YXRzIikKZGVmIHN0YXRzKGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgIHJldHVybiB7CiAgICAgICAgImNoYW5uZWxzIjogZGIucXVlcnkoQ2hhbm5lbCkuY291bnQoKSwKICAgICAgICAiZW5hYmxlZCI6IGRiLnF1ZXJ5KENoYW5uZWwpLmZpbHRlcihDaGFubmVsLmVuYWJsZWQgPT0gVHJ1ZSkuY291bnQoKSwgICMgbm9xYTogRTcxMgogICAgICAgICJzb3VyY2VzIjogZGIucXVlcnkoU291cmNlKS5jb3VudCgpLAogICAgICAgICJwbGF5bGlzdHMiOiBkYi5xdWVyeShQbGF5bGlzdCkuY291bnQoKSwKICAgIH0KCgojIC0tLS0tLS0tLS0g6L6T5Ye66K6i6ZiFIC0tLS0tLS0tLS0KY2xhc3MgUGxheWxpc3RJbihCYXNlTW9kZWwpOgogICAgbmFtZTogc3RyCiAgICBjYXRlZ29yaWVzOiBsaXN0W3N0cl0gPSBbXQogICAgc2VhcmNoOiBzdHIgPSAiIgogICAgc291cmNlX2lkczogbGlzdFtpbnRdID0gW10KICAgIG9ubHlfZW5hYmxlZDogYm9vbCA9IFRydWUKICAgIGluY2x1ZGVfYmFja3VwczogYm9vbCA9IEZhbHNlICAjIOi+k+WHuuaXtuaKiuWkh+eUqOa6kOS5n+S9nOS4uueLrOeri+adoeebrumZhOS4igoKClBMQVlMSVNUX1RPS0VOID0gb3MuZW52aXJvbi5nZXQoIlBMQVlMSVNUX1RPS0VOIiwgIiIpLnN0cmlwKCkKCgpkZWYgX2NoZWNrX3Rva2VuKHRva2VuOiBzdHIgPSAiIik6CiAgICBpZiBQTEFZTElTVF9UT0tFTiBhbmQgdG9rZW4gIT0gUExBWUxJU1RfVE9LRU46CiAgICAgICAgcmFpc2UgSFRUUEV4Y2VwdGlvbig0MDMsICJpbnZhbGlkIHRva2VuIikKCgpkZWYgX2V4cGFuZF9iYWNrdXBzKGNoYW5uZWxzOiBsaXN0LCBpbmNsdWRlOiBib29sKSAtPiBsaXN0OgogICAgIiIi5oqK5aSH55So5Zyw5Z2A5bGV5byA5Li654us56uL5p2h55uu77yI5Y6f5ZCNICsgW+Wkh+eUqE5d77yJ44CCIiIiCiAgICBpZiBub3QgaW5jbHVkZToKICAgICAgICByZXR1cm4gY2hhbm5lbHMKICAgIGZyb20gdHlwZXMgaW1wb3J0IFNpbXBsZU5hbWVzcGFjZQogICAgb3V0ID0gbGlzdChjaGFubmVscykKICAgIGZvciBjIGluIGNoYW5uZWxzOgogICAgICAgIHRyeToKICAgICAgICAgICAgYmFja3VwcyA9IGpzb24ubG9hZHMoYy5iYWNrdXBfdXJscyBvciAiW10iKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIGJhY2t1cHMgPSBbXQogICAgICAgIGZvciBpLCB1IGluIGVudW1lcmF0ZShiYWNrdXBzLCAxKToKICAgICAgICAgICAgb3V0LmFwcGVuZChTaW1wbGVOYW1lc3BhY2UoCiAgICAgICAgICAgICAgICBuYW1lPWYie2MubmFtZX0gW+Wkh+eUqHtpfV0iLCB1cmw9dSwgbG9nbz1jLmxvZ28sCiAgICAgICAgICAgICAgICB0dmdfaWQ9Yy50dmdfaWQsIGNhdGVnb3J5PWMuY2F0ZWdvcnksCiAgICAgICAgICAgICkpCiAgICByZXR1cm4gb3V0CgoKZGVmIF9hcHBseV9maWx0ZXJzKHEsIGY6IGRpY3QpOgogICAgaWYgZi5nZXQoIm9ubHlfZW5hYmxlZCIsIFRydWUpOgogICAgICAgIHEgPSBxLmZpbHRlcihDaGFubmVsLmVuYWJsZWQgPT0gVHJ1ZSkgICMgbm9xYTogRTcxMgogICAgaWYgZi5nZXQoImNhdGVnb3JpZXMiKToKICAgICAgICBxID0gcS5maWx0ZXIoQ2hhbm5lbC5jYXRlZ29yeS5pbl8oZlsiY2F0ZWdvcmllcyJdKSkKICAgIGlmIGYuZ2V0KCJzZWFyY2giKToKICAgICAgICBsaWtlID0gZiIle2ZbJ3NlYXJjaCddfSUiCiAgICAgICAgcSA9IHEuZmlsdGVyKG9yXyhDaGFubmVsLm5hbWUubGlrZShsaWtlKSwgQ2hhbm5lbC5vcmlnX25hbWUubGlrZShsaWtlKSkpCiAgICBpZiBmLmdldCgic291cmNlX2lkcyIpOgogICAgICAgIHEgPSBxLmZpbHRlcihDaGFubmVsLnNvdXJjZV9pZC5pbl8oZlsic291cmNlX2lkcyJdKSkKICAgIHJldHVybiBxLm9yZGVyX2J5KENoYW5uZWwuY2F0ZWdvcnksIENoYW5uZWwubmFtZSkKCgpAYXBwLmdldCgiL2FwaS9wbGF5bGlzdHMiKQpkZWYgbGlzdF9wbGF5bGlzdHMoZGI6IFNlc3Npb24gPSBEZXBlbmRzKGdldF9kYikpOgogICAgcmV0dXJuIFsKICAgICAgICB7ImlkIjogcC5pZCwgIm5hbWUiOiBwLm5hbWUsICJmaWx0ZXJzIjoganNvbi5sb2FkcyhwLmZpbHRlcnMgb3IgInt9Iil9CiAgICAgICAgZm9yIHAgaW4gZGIucXVlcnkoUGxheWxpc3QpLm9yZGVyX2J5KFBsYXlsaXN0LmlkKS5hbGwoKQogICAgXQoKCkBhcHAucG9zdCgiL2FwaS9wbGF5bGlzdHMiKQpkZWYgY3JlYXRlX3BsYXlsaXN0KGJvZHk6IFBsYXlsaXN0SW4sIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgIHAgPSBQbGF5bGlzdChuYW1lPWJvZHkubmFtZS5zdHJpcCgpLCBmaWx0ZXJzPWpzb24uZHVtcHMoewogICAgICAgICJjYXRlZ29yaWVzIjogYm9keS5jYXRlZ29yaWVzLCAic2VhcmNoIjogYm9keS5zZWFyY2gsCiAgICAgICAgInNvdXJjZV9pZHMiOiBib2R5LnNvdXJjZV9pZHMsICJvbmx5X2VuYWJsZWQiOiBib2R5Lm9ubHlfZW5hYmxlZCwKICAgICAgICAiaW5jbHVkZV9iYWNrdXBzIjogYm9keS5pbmNsdWRlX2JhY2t1cHMsCiAgICB9LCBlbnN1cmVfYXNjaWk9RmFsc2UpKQogICAgZGIuYWRkKHApCiAgICBkYi5jb21taXQoKQogICAgZGIucmVmcmVzaChwKQogICAgcmV0dXJuIHsiaWQiOiBwLmlkfQoKCkBhcHAucHV0KCIvYXBpL3BsYXlsaXN0cy97cGlkfSIpCmRlZiB1cGRhdGVfcGxheWxpc3QocGlkOiBpbnQsIGJvZHk6IFBsYXlsaXN0SW4sIGRiOiBTZXNzaW9uID0gRGVwZW5kcyhnZXRfZGIpKToKICAgIHAgPSBkYi5nZXQoUGxheWxpc3QsIHBpZCkKICAgIGlmIG5vdCBwOgogICAgICAgIHJhaXNlIEhUVFBFeGNlcHRpb24oNDA0LCAicGxheWxpc3Qgbm90IGZvdW5kIikKICAgIHAubmFtZSA9IGJvZHkubmFtZS5zdHJpcCgpCiAgICBwLmZpbHRlcnMgPSBqc29uLmR1bXBzKHsKICAgICAgICAiY2F0ZWdvcmllcyI6IGJvZHkuY2F0ZWdvcmllcywgInNlYXJjaCI6IGJvZHkuc2VhcmNoLAogICAgICAgICJzb3VyY2VfaWRzIjogYm9keS5zb3VyY2VfaWRzLCAib25seV9lbmFibGVkIjogYm9keS5vbmx5X2VuYWJsZWQsCiAgICAgICAgImluY2x1ZGVfYmFja3VwcyI6IGJvZHkuaW5jbHVkZV9iYWNrdXBzLAogICAgfSwgZW5zdXJlX2FzY2lpPUZhbHNlKQogICAgZGIuY29tbWl0KCkKICAgIHJldHVybiB7Im9rIjogVHJ1ZX0KCgpAYXBwLmRlbGV0ZSgiL2FwaS9wbGF5bGlzdHMve3BpZH0iKQpkZWYgZGVsZXRlX3BsYXlsaXN0KHBpZDogaW50LCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICBwID0gZGIuZ2V0KFBsYXlsaXN0LCBwaWQpCiAgICBpZiBub3QgcDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCwgInBsYXlsaXN0IG5vdCBmb3VuZCIpCiAgICBkYi5kZWxldGUocCkKICAgIGRiLmNvbW1pdCgpCiAgICByZXR1cm4geyJvayI6IFRydWV9CgoKQGFwcC5nZXQoIi9wL3twaWR9Lm0zdSIpCmRlZiBzZXJ2ZV9wbGF5bGlzdChwaWQ6IGludCwgdG9rZW46IHN0ciA9ICIiLCBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICBfY2hlY2tfdG9rZW4odG9rZW4pCiAgICBwID0gZGIuZ2V0KFBsYXlsaXN0LCBwaWQpCiAgICBpZiBub3QgcDoKICAgICAgICByYWlzZSBIVFRQRXhjZXB0aW9uKDQwNCwgInBsYXlsaXN0IG5vdCBmb3VuZCIpCiAgICBmID0ganNvbi5sb2FkcyhwLmZpbHRlcnMgb3IgInt9IikKICAgIGNoYW5uZWxzID0gX2FwcGx5X2ZpbHRlcnMoZGIucXVlcnkoQ2hhbm5lbCksIGYpLmFsbCgpCiAgICBjaGFubmVscyA9IF9leHBhbmRfYmFja3VwcyhjaGFubmVscywgZi5nZXQoImluY2x1ZGVfYmFja3VwcyIsIEZhbHNlKSkKICAgIGRpc3AgPSAiaW5saW5lOyBmaWxlbmFtZSo9VVRGLTgnJyIgKyBxdW90ZShmIntwLm5hbWV9Lm0zdSIpCiAgICByZXR1cm4gUGxhaW5UZXh0UmVzcG9uc2UoYnVpbGRfbTN1KGNoYW5uZWxzLCBwLm5hbWUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lZGlhX3R5cGU9ImF1ZGlvL3gtbXBlZ3VybCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVycz17IkNvbnRlbnQtRGlzcG9zaXRpb24iOiBkaXNwfSkKCgpAYXBwLmdldCgiL3BsYXlsaXN0Lm0zdSIpCmRlZiBzZXJ2ZV9hZGhvYyhjYXRlZ29yeTogc3RyID0gIiIsIHNlYXJjaDogc3RyID0gIiIsIHNvdXJjZV9pZDogaW50ID0gMCwKICAgICAgICAgICAgICAgIGluY2x1ZGVfYmFja3VwczogYm9vbCA9IEZhbHNlLCB0b2tlbjogc3RyID0gIiIsCiAgICAgICAgICAgICAgICBkYjogU2Vzc2lvbiA9IERlcGVuZHMoZ2V0X2RiKSk6CiAgICAiIiLljbPml7borqLpmIXvvJovcGxheWxpc3QubTN1P2NhdGVnb3J5PeWkruinhiZzZWFyY2g95paw6Ze7IiIiCiAgICBfY2hlY2tfdG9rZW4odG9rZW4pCiAgICBmOiBkaWN0ID0geyJvbmx5X2VuYWJsZWQiOiBUcnVlfQogICAgaWYgY2F0ZWdvcnk6CiAgICAgICAgZlsiY2F0ZWdvcmllcyJdID0gW2Muc3RyaXAoKSBmb3IgYyBpbiBjYXRlZ29yeS5zcGxpdCgiLCIpIGlmIGMuc3RyaXAoKV0KICAgIGlmIHNlYXJjaDoKICAgICAgICBmWyJzZWFyY2giXSA9IHNlYXJjaAogICAgaWYgc291cmNlX2lkOgogICAgICAgIGZbInNvdXJjZV9pZHMiXSA9IFtzb3VyY2VfaWRdCiAgICBjaGFubmVscyA9IF9hcHBseV9maWx0ZXJzKGRiLnF1ZXJ5KENoYW5uZWwpLCBmKS5hbGwoKQogICAgY2hhbm5lbHMgPSBfZXhwYW5kX2JhY2t1cHMoY2hhbm5lbHMsIGluY2x1ZGVfYmFja3VwcykKICAgIHJldHVybiBQbGFpblRleHRSZXNwb25zZShidWlsZF9tM3UoY2hhbm5lbHMpLCBtZWRpYV90eXBlPSJhdWRpby94LW1wZWd1cmwiKQoKCiMgLS0tLS0tLS0tLSDpnZnmgIEgVUkgLS0tLS0tLS0tLQphcHAubW91bnQoIi9zdGF0aWMiLCBTdGF0aWNGaWxlcyhkaXJlY3Rvcnk9U1RBVElDX0RJUiksIG5hbWU9InN0YXRpYyIpCgoKQGFwcC5nZXQoIi8iKQpkZWYgaW5kZXgoKToKICAgIHJldHVybiBGaWxlUmVzcG9uc2Uob3MucGF0aC5qb2luKFNUQVRJQ19ESVIsICJpbmRleC5odG1sIikpCg==
+"""IPTV 订阅管理服务：多源聚合 / 定时更新 / 改名删台归类 / 同名合并 / 定制输出。"""
+import json
+import logging
+import os
+from contextlib import asynccontextmanager
+from urllib.parse import quote
+
+from fastapi import FastAPI, Depends, HTTPException, Query
+from fastapi.responses import FileResponse, PlainTextResponse
+from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
+from sqlalchemy import func, or_
+from sqlalchemy.orm import Session
+
+from .db import Base, engine, get_db
+from .models import Source, Channel, Playlist
+from . import scheduler as sched
+from .fetcher import fetch_source
+from .m3u import build_m3u, normalize_name
+
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger("iptv")
+
+STATIC_DIR = os.path.join(os.path.dirname(__file__), "..", "static")
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    Base.metadata.create_all(engine)
+    # 轻量迁移：老库补 backup_urls 列
+    with engine.begin() as conn:
+        cols = [r[1] for r in conn.exec_driver_sql("PRAGMA table_info(channels)").fetchall()]
+        if "backup_urls" not in cols:
+            conn.exec_driver_sql("ALTER TABLE channels ADD COLUMN backup_urls TEXT DEFAULT '[]'")
+    sched.start()
+    yield
+    sched.shutdown()
+
+
+app = FastAPI(title="IPTV Manager", version="0.1.0", lifespan=lifespan)
+
+
+# ---------- 订阅源 ----------
+class SourceIn(BaseModel):
+    name: str
+    url: str
+    enabled: bool = True
+    interval_hours: int = 12
+
+
+@app.get("/api/sources")
+def list_sources(db: Session = Depends(get_db)):
+    return [
+        {
+            "id": s.id, "name": s.name, "url": s.url, "enabled": s.enabled,
+            "interval_hours": s.interval_hours,
+            "last_fetch": s.last_fetch.isoformat() if s.last_fetch else None,
+            "last_status": s.last_status, "last_message": s.last_message,
+            "channel_count": s.channel_count,
+        }
+        for s in db.query(Source).order_by(Source.id).all()
+    ]
+
+
+@app.post("/api/sources")
+def create_source(body: SourceIn, db: Session = Depends(get_db)):
+    s = Source(name=body.name.strip(), url=body.url.strip(),
+               enabled=body.enabled, interval_hours=max(1, body.interval_hours))
+    db.add(s)
+    db.commit()
+    db.refresh(s)
+    sched.schedule_source(s)
+    return {"id": s.id}
+
+
+@app.put("/api/sources/{sid}")
+def update_source(sid: int, body: SourceIn, db: Session = Depends(get_db)):
+    s = db.get(Source, sid)
+    if not s:
+        raise HTTPException(404, "source not found")
+    s.name, s.url = body.name.strip(), body.url.strip()
+    s.enabled, s.interval_hours = body.enabled, max(1, body.interval_hours)
+    db.commit()
+    sched.schedule_source(s)
+    return {"ok": True}
+
+
+@app.delete("/api/sources/{sid}")
+def delete_source(sid: int, db: Session = Depends(get_db)):
+    s = db.get(Source, sid)
+    if not s:
+        raise HTTPException(404, "source not found")
+    sched.remove_source(sid)
+    db.query(Channel).filter(Channel.source_id == sid).delete()
+    db.delete(s)
+    db.commit()
+    return {"ok": True}
+
+
+@app.post("/api/sources/{sid}/refresh")
+def refresh_source(sid: int):
+    return fetch_source(sid)
+
+
+# ---------- 频道 ----------
+class ChannelPatch(BaseModel):
+    name: str | None = None
+    category: str | None = None
+    enabled: bool | None = None
+
+
+def _channel_dict(c: Channel) -> dict:
+    try:
+        backups = json.loads(c.backup_urls or "[]")
+    except Exception:
+        backups = []
+    return {
+        "id": c.id, "name": c.name, "norm_name": c.norm_name, "orig_name": c.orig_name,
+        "url": c.url, "logo": c.logo, "category": c.category,
+        "source_id": c.source_id, "source_name": c.source_name,
+        "enabled": c.enabled, "backup_urls": backups,
+        "updated_at": c.updated_at.isoformat() if c.updated_at else None,
+    }
+
+
+@app.get("/api/channels")
+def list_channels(
+    search: str = "", category: str = "", source_id: int = 0,
+    enabled: str = "", page: int = 1, per_page: int = Query(50, le=500),
+    db: Session = Depends(get_db),
+):
+    q = db.query(Channel)
+    if search:
+        like = f"%{search}%"
+        q = q.filter(or_(Channel.name.like(like), Channel.orig_name.like(like)))
+    if category:
+        q = q.filter(Channel.category == category)
+    if source_id:
+        q = q.filter(Channel.source_id == source_id)
+    if enabled == "1":
+        q = q.filter(Channel.enabled == True)  # noqa: E712
+    elif enabled == "0":
+        q = q.filter(Channel.enabled == False)  # noqa: E712
+    total = q.count()
+    items = q.order_by(Channel.category, Channel.name).offset((page - 1) * per_page).limit(per_page).all()
+    return {"total": total, "page": page, "per_page": per_page,
+            "items": [_channel_dict(c) for c in items]}
+
+
+@app.put("/api/channels/{cid}")
+def update_channel(cid: int, body: ChannelPatch, db: Session = Depends(get_db)):
+    c = db.get(Channel, cid)
+    if not c:
+        raise HTTPException(404, "channel not found")
+    if body.name is not None and body.name.strip():
+        c.name = body.name.strip()
+        c.norm_name = normalize_name(c.name)
+    if body.category is not None:
+        c.category = body.category.strip() or "未分类"
+    if body.enabled is not None:
+        c.enabled = body.enabled
+    db.commit()
+    return {"ok": True}
+
+
+@app.delete("/api/channels/{cid}")
+def delete_channel(cid: int, db: Session = Depends(get_db)):
+    c = db.get(Channel, cid)
+    if not c:
+        raise HTTPException(404, "channel not found")
+    db.delete(c)
+    db.commit()
+    return {"ok": True}
+
+
+class BatchIn(BaseModel):
+    ids: list[int]
+    op: str  # delete | enable | disable | set_category | merge
+    category: str | None = None
+
+
+@app.post("/api/channels/batch")
+def batch_channels(body: BatchIn, db: Session = Depends(get_db)):
+    ids = body.ids
+    if not ids:
+        return {"ok": True, "affected": 0}
+    if body.op == "delete":
+        n = db.query(Channel).filter(Channel.id.in_(ids)).delete(synchronize_session=False)
+    elif body.op == "enable":
+        n = db.query(Channel).filter(Channel.id.in_(ids)).update({"enabled": True})
+    elif body.op == "disable":
+        n = db.query(Channel).filter(Channel.id.in_(ids)).update({"enabled": False})
+    elif body.op == "set_category":
+        n = db.query(Channel).filter(Channel.id.in_(ids)).update(
+            {"category": (body.category or "").strip() or "未分类"})
+    elif body.op == "merge":
+        # 同名合并：保留第一个，其余地址收为备用源后删除
+        chans = db.query(Channel).filter(Channel.id.in_(ids)).order_by(Channel.id).all()
+        if len(chans) < 2:
+            raise HTTPException(400, "至少选择 2 个频道才能合并")
+        keep = chans[0]
+        try:
+            backups = json.loads(keep.backup_urls or "[]")
+        except Exception:
+            backups = []
+        for c in chans[1:]:
+            if c.url and c.url not in backups and c.url != keep.url:
+                backups.append(c.url)
+            db.delete(c)
+        keep.backup_urls = json.dumps(backups, ensure_ascii=False)
+        n = len(chans) - 1
+        db.commit()
+        return {"ok": True, "affected": n, "kept_id": keep.id, "backups": len(backups)}
+    else:
+        raise HTTPException(400, f"unknown op: {body.op}")
+    db.commit()
+    return {"ok": True, "affected": n}
+
+
+@app.get("/api/duplicates")
+def list_duplicates(db: Session = Depends(get_db)):
+    """按归一化名分组，返回有重复的组（只看启用频道，可选含禁用）。"""
+    rows = (
+        db.query(Channel.norm_name, func.count(Channel.id))
+        .group_by(Channel.norm_name)
+        .having(func.count(Channel.id) > 1)
+        .order_by(func.count(Channel.id).desc())
+        .limit(200)
+        .all()
+    )
+    groups = []
+    for norm, cnt in rows:
+        chans = db.query(Channel).filter(Channel.norm_name == norm).order_by(Channel.id).all()
+        groups.append({"norm_name": norm, "count": cnt,
+                       "channels": [_channel_dict(c) for c in chans]})
+    return {"groups": groups, "total_groups": len(groups)}
+
+
+@app.get("/api/categories")
+def list_categories(db: Session = Depends(get_db)):
+    rows = (
+        db.query(Channel.category, func.count(Channel.id))
+        .group_by(Channel.category)
+        .order_by(Channel.category)
+        .all()
+    )
+    return [{"name": r[0] or "未分类", "count": r[1]} for r in rows]
+
+
+@app.get("/api/stats")
+def stats(db: Session = Depends(get_db)):
+    return {
+        "channels": db.query(Channel).count(),
+        "enabled": db.query(Channel).filter(Channel.enabled == True).count(),  # noqa: E712
+        "sources": db.query(Source).count(),
+        "playlists": db.query(Playlist).count(),
+    }
+
+
+# ---------- 输出订阅 ----------
+class PlaylistIn(BaseModel):
+    name: str
+    categories: list[str] = []
+    search: str = ""
+    source_ids: list[int] = []
+    only_enabled: bool = True
+    include_backups: bool = False  # 输出时把备用源也作为独立条目附上
+
+
+PLAYLIST_TOKEN = os.environ.get("PLAYLIST_TOKEN", "").strip()
+
+
+def _check_token(token: str = ""):
+    if PLAYLIST_TOKEN and token != PLAYLIST_TOKEN:
+        raise HTTPException(403, "invalid token")
+
+
+def _expand_backups(channels: list, include: bool) -> list:
+    """把备用地址展开为独立条目（原名 + [备用N]）。"""
+    if not include:
+        return channels
+    from types import SimpleNamespace
+    out = list(channels)
+    for c in channels:
+        try:
+            backups = json.loads(c.backup_urls or "[]")
+        except Exception:
+            backups = []
+        for i, u in enumerate(backups, 1):
+            out.append(SimpleNamespace(
+                name=f"{c.name} [备用{i}]", url=u, logo=c.logo,
+                tvg_id=c.tvg_id, category=c.category,
+            ))
+    return out
+
+
+def _apply_filters(q, f: dict):
+    if f.get("only_enabled", True):
+        q = q.filter(Channel.enabled == True)  # noqa: E712
+    if f.get("categories"):
+        q = q.filter(Channel.category.in_(f["categories"]))
+    if f.get("search"):
+        like = f"%{f['search']}%"
+        q = q.filter(or_(Channel.name.like(like), Channel.orig_name.like(like)))
+    if f.get("source_ids"):
+        q = q.filter(Channel.source_id.in_(f["source_ids"]))
+    return q.order_by(Channel.category, Channel.name)
+
+
+@app.get("/api/playlists")
+def list_playlists(db: Session = Depends(get_db)):
+    return [
+        {"id": p.id, "name": p.name, "filters": json.loads(p.filters or "{}")}
+        for p in db.query(Playlist).order_by(Playlist.id).all()
+    ]
+
+
+@app.post("/api/playlists")
+def create_playlist(body: PlaylistIn, db: Session = Depends(get_db)):
+    p = Playlist(name=body.name.strip(), filters=json.dumps({
+        "categories": body.categories, "search": body.search,
+        "source_ids": body.source_ids, "only_enabled": body.only_enabled,
+        "include_backups": body.include_backups,
+    }, ensure_ascii=False))
+    db.add(p)
+    db.commit()
+    db.refresh(p)
+    return {"id": p.id}
+
+
+@app.put("/api/playlists/{pid}")
+def update_playlist(pid: int, body: PlaylistIn, db: Session = Depends(get_db)):
+    p = db.get(Playlist, pid)
+    if not p:
+        raise HTTPException(404, "playlist not found")
+    p.name = body.name.strip()
+    p.filters = json.dumps({
+        "categories": body.categories, "search": body.search,
+        "source_ids": body.source_ids, "only_enabled": body.only_enabled,
+        "include_backups": body.include_backups,
+    }, ensure_ascii=False)
+    db.commit()
+    return {"ok": True}
+
+
+@app.delete("/api/playlists/{pid}")
+def delete_playlist(pid: int, db: Session = Depends(get_db)):
+    p = db.get(Playlist, pid)
+    if not p:
+        raise HTTPException(404, "playlist not found")
+    db.delete(p)
+    db.commit()
+    return {"ok": True}
+
+
+@app.get("/p/{pid}.m3u")
+def serve_playlist(pid: int, token: str = "", db: Session = Depends(get_db)):
+    _check_token(token)
+    p = db.get(Playlist, pid)
+    if not p:
+        raise HTTPException(404, "playlist not found")
+    f = json.loads(p.filters or "{}")
+    channels = _apply_filters(db.query(Channel), f).all()
+    channels = _expand_backups(channels, f.get("include_backups", False))
+    disp = "inline; filename*=UTF-8''" + quote(f"{p.name}.m3u")
+    return PlainTextResponse(build_m3u(channels, p.name),
+                             media_type="audio/x-mpegurl",
+                             headers={"Content-Disposition": disp})
+
+
+@app.get("/playlist.m3u")
+def serve_adhoc(category: str = "", search: str = "", source_id: int = 0,
+                include_backups: bool = False, token: str = "",
+                db: Session = Depends(get_db)):
+    """即时订阅：/playlist.m3u?category=央视&search=新闻"""
+    _check_token(token)
+    f: dict = {"only_enabled": True}
+    if category:
+        f["categories"] = [c.strip() for c in category.split(",") if c.strip()]
+    if search:
+        f["search"] = search
+    if source_id:
+        f["source_ids"] = [source_id]
+    channels = _apply_filters(db.query(Channel), f).all()
+    channels = _expand_backups(channels, include_backups)
+    return PlainTextResponse(build_m3u(channels), media_type="audio/x-mpegurl")
+
+
+# ---------- 静态 UI ----------
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
+
+@app.get("/")
+def index():
+    return FileResponse(os.path.join(STATIC_DIR, "index.html"))
