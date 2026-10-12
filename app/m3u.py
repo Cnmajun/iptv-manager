@@ -1,1 +1,93 @@
-IiIiTTNVIHBhcnNlIC8gYnVpbGQgKyBjaGFubmVsIG5hbWUgbm9ybWFsaXphdGlvbiBmb3IgZGVkdXAgbWVyZ2UuIiIiCmltcG9ydCByZQpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MKCkVYVElORl9SRSA9IHJlLmNvbXBpbGUocicjRVhUSU5GOi0/XGQrXHMqKC4qKScsIHJlLklHTk9SRUNBU0UpCkFUVFJfUkUgPSByZS5jb21waWxlKHInKFtcd1wtXSspPSIoW14iXSopIicpCiMgQ29tbW9uIHF1YWxpdHkgc3VmZml4ZXMgc3RyaXBwZWQgZHVyaW5nIG5vcm1hbGl6YXRpb24gc28gIkNDVFYxIEhEIgojIG1lcmdlcyB3aXRoICJDQ1RWMSIuIFx1MDBiNyBpcyB0aGUgbWlkZGxlIGRvdCBzb21ldGltZXMgdXNlZCBhcyBzZXBhcmF0b3IuClFVQUxJVFlfU1VGRklYX1JFID0gcmUuY29tcGlsZSgKICAgIHInW1xzXC1fXHUwMGI3Ll0qKFwoPyg0a3w4a3x1aGR8ZmhkfGhkfHNkKVwpPylbXHNcLV9cdTAwYjcuXSokJywKICAgIHJlLklHTk9SRUNBU0UsCikKIyBDSksgYnJhY2tldHMgXHUzMDEwIFx1MzAxMSAoYW5kIGFzY2lpIFtdKSBvZnRlbiB3cmFwIHJlbWFya3M6IHN0cmlwIHRoZW0uCkJSQUNLRVRfUkUgPSByZS5jb21waWxlKHInW1x1MzAxMFxbXVteXHUzMDExXF1dKltcdTMwMTFcXV0nKQpDSktfUVVBTElUWV9XT1JEUyA9ICgnXHU5YWQ4XHU2ZTA1JywgJ1x1OGQ4NVx1NmUwNScsICdcdTY4MDdcdTZlMDUnLAogICAgICAgICAgICAgICAgICAgICAnXHU2ZDQxXHU3NTQ1JywgJ1x1ODRkZFx1NTE0OScpCgoKQGRhdGFjbGFzcwpjbGFzcyBQYXJzZWRDaGFubmVsOgogICAgbmFtZTogc3RyCiAgICB1cmw6IHN0cgogICAgbG9nbzogc3RyID0gIiIKICAgIHR2Z19pZDogc3RyID0gIiIKICAgIHR2Z19uYW1lOiBzdHIgPSAiIgogICAgZ3JvdXA6IHN0ciA9ICIiCgoKZGVmIG5vcm1hbGl6ZV9uYW1lKG5hbWU6IHN0cikgLT4gc3RyOgogICAgIiIiTm9ybWFsaXplIGEgY2hhbm5lbCBuYW1lOiBkcm9wIHNwYWNlcy9jYXNlL3F1YWxpdHkgc3VmZml4ZXMvYnJhY2tldAogICAgcmVtYXJrcywgc28gdmFyaWFudHMgY291bnQgYXMgdGhlIHNhbWUgY2hhbm5lbCBmb3IgbWVyZ2luZy4iIiIKICAgIG4gPSAobmFtZSBvciAnJykuc3RyaXAoKS5sb3dlcigpCiAgICBuID0gcmUuc3ViKHInXHMrJywgJycsIG4pCiAgICBmb3IgXyBpbiByYW5nZSgzKToKICAgICAgICBuZXcgPSBRVUFMSVRZX1NVRkZJWF9SRS5zdWIoJycsIG4pCiAgICAgICAgaWYgbmV3ID09IG46CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgbiA9IG5ldwogICAgZm9yIHcgaW4gQ0pLX1FVQUxJVFlfV09SRFM6CiAgICAgICAgaWYgbi5lbmRzd2l0aCh3KToKICAgICAgICAgICAgbiA9IG5bOiAtbGVuKHcpXQogICAgbiA9IEJSQUNLRVRfUkUuc3ViKCcnLCBuKQogICAgbiA9IHJlLnN1YihyJ1stXy5cdTAwYjddJywgJycsIG4pCiAgICByZXR1cm4gbgoKCmRlZiBwYXJzZV9tM3UodGV4dDogc3RyKSAtPiBsaXN0OgogICAgIiIiUGFyc2UgTTNVIHRleHQgaW50byBQYXJzZWRDaGFubmVsIGxpc3QuIFRvbGVyYXRlcyBtaXNzaW5nIGhlYWRlciwKICAgIGJsYW5rIGxpbmVzIGFuZCBjb21tZW50IGxpbmVzLiIiIgogICAgY2hhbm5lbHMgPSBbXQogICAgcGVuZGluZyA9IE5vbmUKICAgIGZvciByYXcgaW4gdGV4dC5zcGxpdGxpbmVzKCk6CiAgICAgICAgbGluZSA9IHJhdy5zdHJpcCgpCiAgICAgICAgaWYgbm90IGxpbmU6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgbGluZS5zdGFydHN3aXRoKCcjRVhUSU5GJyk6CiAgICAgICAgICAgIG0gPSBFWFRJTkZfUkUubWF0Y2gobGluZSkKICAgICAgICAgICAgYXR0cnMgPSBkaWN0KEFUVFJfUkUuZmluZGFsbChtLmdyb3VwKDEpKSkgaWYgbSBlbHNlIHt9CiAgICAgICAgICAgIG5hbWUgPSBsaW5lLnJzcGxpdCgnLCcsIDEpWy0xXS5zdHJpcCgpIGlmICcsJyBpbiBsaW5lIGVsc2UgJycKICAgICAgICAgICAgaWYgbm90IG5hbWU6CiAgICAgICAgICAgICAgICBuYW1lID0gYXR0cnMuZ2V0KCd0dmctbmFtZScsICcnKS5zdHJpcCgpCiAgICAgICAgICAgIHBlbmRpbmcgPSBQYXJzZWRDaGFubmVsKAogICAgICAgICAgICAgICAgbmFtZT1uYW1lLAogICAgICAgICAgICAgICAgdXJsPScnLAogICAgICAgICAgICAgICAgbG9nbz1hdHRycy5nZXQoJ3R2Zy1sb2dvJywgJycpLAogICAgICAgICAgICAgICAgdHZnX2lkPWF0dHJzLmdldCgndHZnLWlkJywgJycpLAogICAgICAgICAgICAgICAgdHZnX25hbWU9YXR0cnMuZ2V0KCd0dmctbmFtZScsICcnKSwKICAgICAgICAgICAgICAgIGdyb3VwPWF0dHJzLmdldCgnZ3JvdXAtdGl0bGUnLCAnJyksCiAgICAgICAgICAgICkKICAgICAgICBlbGlmIGxpbmUuc3RhcnRzd2l0aCgnIycpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHBlbmRpbmcgaXMgbm90IE5vbmUgYW5kIHBlbmRpbmcubmFtZToKICAgICAgICAgICAgICAgIHBlbmRpbmcudXJsID0gbGluZQogICAgICAgICAgICAgICAgY2hhbm5lbHMuYXBwZW5kKHBlbmRpbmcpCiAgICAgICAgICAgIHBlbmRpbmcgPSBOb25lCiAgICByZXR1cm4gY2hhbm5lbHMKCgpkZWYgYnVpbGRfbTN1KGNoYW5uZWxzOiBsaXN0LCB0aXRsZTogc3RyID0gJ0lQVFYnKSAtPiBzdHI6CiAgICAiIiJCdWlsZCBNM1UgdGV4dCBmcm9tIGNoYW5uZWwgb2JqZWN0cyB3aXRoIG5hbWUvdXJsL2xvZ28vdHZnX2lkL2NhdGVnb3J5LiIiIgogICAgb3V0ID0gWycjRVhUTTNVJ10KICAgIGZvciBjIGluIGNoYW5uZWxzOgogICAgICAgIGxvZ28gPSAoYy5sb2dvIG9yICcnKS5yZXBsYWNlKCciJywgJycpCiAgICAgICAgdHZnX2lkID0gKGMudHZnX2lkIG9yICcnKS5yZXBsYWNlKCciJywgJycpCiAgICAgICAgZ3JvdXAgPSAoYy5jYXRlZ29yeSBvciAnJykucmVwbGFjZSgnIicsICcnKQogICAgICAgIG5hbWUgPSAoYy5uYW1lIG9yICcnKS5yZXBsYWNlKCcsJywgJyAnKQogICAgICAgIG91dC5hcHBlbmQoCiAgICAgICAgICAgICcjRVhUSU5GOi0xIHR2Zy1pZD0iJXMiIHR2Zy1sb2dvPSIlcyIgZ3JvdXAtdGl0bGU9IiVzIiwlcycKICAgICAgICAgICAgJSAodHZnX2lkLCBsb2dvLCBncm91cCwgbmFtZSkKICAgICAgICApCiAgICAgICAgb3V0LmFwcGVuZChjLnVybCkKICAgIHJldHVybiAnXG4nLmpvaW4ob3V0KSArICdcbicK
+"""M3U parse / build + channel name normalization for dedup merge."""
+import re
+from dataclasses import dataclass
+
+EXTINF_RE = re.compile(r'#EXTINF:-?\d+\s*(.*)', re.IGNORECASE)
+ATTR_RE = re.compile(r'([\w\-]+)="([^"]*)"')
+# Common quality suffixes stripped during normalization so "CCTV1 HD"
+# merges with "CCTV1". \u00b7 is the middle dot sometimes used as separator.
+QUALITY_SUFFIX_RE = re.compile(
+    r'[\s\-_\u00b7.]*(\(?(4k|8k|uhd|fhd|hd|sd)\)?)[\s\-_\u00b7.]*$',
+    re.IGNORECASE,
+)
+# CJK brackets \u3010 \u3011 (and ascii []) often wrap remarks: strip them.
+BRACKET_RE = re.compile(r'[\u3010\[][^\u3011\]]*[\u3011\]]')
+CJK_QUALITY_WORDS = ('\u9ad8\u6e05', '\u8d85\u6e05', '\u6807\u6e05',
+                     '\u6d41\u7545', '\u84dd\u5149')
+
+
+@dataclass
+class ParsedChannel:
+    name: str
+    url: str
+    logo: str = ""
+    tvg_id: str = ""
+    tvg_name: str = ""
+    group: str = ""
+
+
+def normalize_name(name: str) -> str:
+    """Normalize a channel name: drop spaces/case/quality suffixes/bracket
+    remarks, so variants count as the same channel for merging."""
+    n = (name or '').strip().lower()
+    n = re.sub(r'\s+', '', n)
+    for _ in range(3):
+        new = QUALITY_SUFFIX_RE.sub('', n)
+        if new == n:
+            break
+        n = new
+    for w in CJK_QUALITY_WORDS:
+        if n.endswith(w):
+            n = n[: -len(w)]
+    n = BRACKET_RE.sub('', n)
+    n = re.sub(r'[-_.\u00b7]', '', n)
+    return n
+
+
+def parse_m3u(text: str) -> list:
+    """Parse M3U text into ParsedChannel list. Tolerates missing header,
+    blank lines and comment lines."""
+    channels = []
+    pending = None
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith('#EXTINF'):
+            m = EXTINF_RE.match(line)
+            attrs = dict(ATTR_RE.findall(m.group(1))) if m else {}
+            name = line.rsplit(',', 1)[-1].strip() if ',' in line else ''
+            if not name:
+                name = attrs.get('tvg-name', '').strip()
+            pending = ParsedChannel(
+                name=name,
+                url='',
+                logo=attrs.get('tvg-logo', ''),
+                tvg_id=attrs.get('tvg-id', ''),
+                tvg_name=attrs.get('tvg-name', ''),
+                group=attrs.get('group-title', ''),
+            )
+        elif line.startswith('#'):
+            continue
+        else:
+            if pending is not None and pending.name:
+                pending.url = line
+                channels.append(pending)
+            pending = None
+    return channels
+
+
+def build_m3u(channels: list, title: str = 'IPTV') -> str:
+    """Build M3U text from channel objects with name/url/logo/tvg_id/category."""
+    out = ['#EXTM3U']
+    for c in channels:
+        logo = (c.logo or '').replace('"', '')
+        tvg_id = (c.tvg_id or '').replace('"', '')
+        group = (c.category or '').replace('"', '')
+        name = (c.name or '').replace(',', ' ')
+        out.append(
+            '#EXTINF:-1 tvg-id="%s" tvg-logo="%s" group-title="%s",%s'
+            % (tvg_id, logo, group, name)
+        )
+        out.append(c.url)
+    return '\n'.join(out) + '\n'
