@@ -1,1 +1,8 @@
-X19weWNhY2hlX18vCioucHljCioucHlvCi52ZW52LwpkYXRhLwoqLmRiCiouZGItam91cm5hbAouRFNfU3RvcmUK
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+data/
+*.db
+*.db-journal
+.DS_Store
