@@ -1,1 +1,217 @@
-LyogSVBUViBNYW5hZ2VyIOWJjeerryAqLwpjb25zdCAkID0gKGlkKSA9PiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChpZCk7CmNvbnN0IGFwaSA9IGFzeW5jIChtZXRob2QsIHBhdGgsIGJvZHkpID0+IHsKICBjb25zdCByID0gYXdhaXQgZmV0Y2gocGF0aCwgewogICAgbWV0aG9kLAogICAgaGVhZGVyczogYm9keSA/IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9IDoge30sCiAgICBib2R5OiBib2R5ID8gSlNPTi5zdHJpbmdpZnkoYm9keSkgOiB1bmRlZmluZWQsCiAgfSk7CiAgaWYgKCFyLm9rKSB7IGNvbnN0IHQgPSBhd2FpdCByLnRleHQoKTsgdGhyb3cgbmV3IEVycm9yKHQgfHwgci5zdGF0dXNUZXh0KTsgfQogIHJldHVybiByLmpzb24oKTsKfTsKY29uc3QgZXNjID0gKHMpID0+IFN0cmluZyhzID8/ICIiKS5yZXBsYWNlKC9bJjw+IiddL2csIChjKSA9PgogICh7ICImIjogIiZhbXA7IiwgIjwiOiAiJmx0OyIsICI+IjogIiZndDsiLCAnIic6ICImcXVvdDsiLCAiJyI6ICImIzM5OyIgfVtjXSkpOwpjb25zdCBjb3B5VGV4dCA9ICh0KSA9PiB7IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KHQpOyBhbGVydCgi5bey5aSN5Yi2Iik7IH07CgpsZXQgY3VyUGFnZSA9IDEsIHNlbGVjdGVkID0gbmV3IFNldCgpLCBjYXRzID0gW10sIHNvdXJjZXMgPSBbXTsKCi8qIC0tLS0gdGFicyAtLS0tICovCmRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi50YWIiKS5mb3JFYWNoKChiKSA9PiBiLm9uY2xpY2sgPSAoKSA9PiB7CiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLnRhYiIpLmZvckVhY2goKHgpID0+IHguY2xhc3NMaXN0LnJlbW92ZSgiYWN0aXZlIikpOwogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi50YWJwYW5lIikuZm9yRWFjaCgoeCkgPT4geC5jbGFzc0xpc3QucmVtb3ZlKCJhY3RpdmUiKSk7CiAgYi5jbGFzc0xpc3QuYWRkKCJhY3RpdmUiKTsKICAkKCJ0YWItIiArIGIuZGF0YXNldC50YWIpLmNsYXNzTGlzdC5hZGQoImFjdGl2ZSIpOwogIGlmIChiLmRhdGFzZXQudGFiID09PSAiZHVwZXMiKSBsb2FkRHVwZXMoKTsKICBpZiAoYi5kYXRhc2V0LnRhYiA9PT0gInNvdXJjZXMiKSBsb2FkU291cmNlcygpOwogIGlmIChiLmRhdGFzZXQudGFiID09PSAicGxheWxpc3RzIikgbG9hZFBsYXlsaXN0cygpOwogIGlmIChiLmRhdGFzZXQudGFiID09PSAiY2hhbm5lbHMiKSB7IGxvYWRDYXRzKCk7IGxvYWRDaGFubmVscygxKTsgfQp9KTsKCi8qIC0tLS0gc3RhdHMgLS0tLSAqLwphc3luYyBmdW5jdGlvbiBsb2FkU3RhdHMoKSB7CiAgY29uc3QgcyA9IGF3YWl0IGFwaSgiR0VUIiwgIi9hcGkvc3RhdHMiKTsKICAkKCJzdGF0cyIpLnRleHRDb250ZW50ID0gYOmikemBkyAke3MuY2hhbm5lbHN977yI5ZCv55SoICR7cy5lbmFibGVkfe+8icK3IOiuoumYhea6kCAke3Muc291cmNlc30gwrcg6L6T5Ye66K6i6ZiFICR7cy5wbGF5bGlzdHN9YDsKfQoKLyogLS0tLSDpopHpgZMgLS0tLSAqLwpsZXQgZGViVDsKZnVuY3Rpb24gZGVib3VuY2VkTG9hZCgpIHsgY2xlYXJUaW1lb3V0KGRlYlQpOyBkZWJUID0gc2V0VGltZW91dCgoKSA9PiBsb2FkQ2hhbm5lbHMoMSksIDQwMCk7IH0KZnVuY3Rpb24gcGFnZShkKSB7IGxvYWRDaGFubmVscyhjdXJQYWdlICsgZCk7IH0KCmFzeW5jIGZ1bmN0aW9uIGxvYWRDYXRzKCkgewogIGNhdHMgPSBhd2FpdCBhcGkoIkdFVCIsICIvYXBpL2NhdGVnb3JpZXMiKTsKICBjb25zdCBvcHRzID0gWyc8b3B0aW9uIHZhbHVlPSIiPuWFqOmDqOWIhuexuzwvb3B0aW9uPiddLmNvbmNhdCgKICAgIGNhdHMubWFwKChjKSA9PiBgPG9wdGlvbiB2YWx1ZT0iJHtlc2MoYy5uYW1lKX0iPiR7ZXNjKGMubmFtZSl9ICgke2MuY291bnR9KTwvb3B0aW9uPmApKTsKICAkKCJmQ2F0IikuaW5uZXJIVE1MID0gb3B0cy5qb2luKCIiKTsKICAkKCJhZGhvY0NhdCIpLmlubmVySFRNTCA9IG9wdHMuam9pbigiIik7CiAgJCgicGxDYXRzIikuaW5uZXJIVE1MID0gY2F0cy5tYXAoKGMpID0+CiAgICBgPGxhYmVsPjxpbnB1dCB0eXBlPSJjaGVja2JveCIgdmFsdWU9IiR7ZXNjKGMubmFtZSl9Ij4gJHtlc2MoYy5uYW1lKX08L2xhYmVsPmApLmpvaW4oIiIpOwp9CmFzeW5jIGZ1bmN0aW9uIGxvYWRTb3VyY2VzSW50byhzZWwpIHsKICBzb3VyY2VzID0gYXdhaXQgYXBpKCJHRVQiLCAiL2FwaS9zb3VyY2VzIik7CiAgJChzZWwpLmlubmVySFRNTCA9ICc8b3B0aW9uIHZhbHVlPSIwIj7lhajpg6jmnaXmupA8L29wdGlvbj4nICsgc291cmNlcy5tYXAoKHMpID0+CiAgICBgPG9wdGlvbiB2YWx1ZT0iJHtzLmlkfSI+JHtlc2Mocy5uYW1lKX08L29wdGlvbj5gKS5qb2luKCIiKTsKfQoKYXN5bmMgZnVuY3Rpb24gbG9hZENoYW5uZWxzKHApIHsKICBjdXJQYWdlID0gTWF0aC5tYXgoMSwgcCk7CiAgY29uc3QgcSA9IG5ldyBVUkxTZWFyY2hQYXJhbXMoewogICAgc2VhcmNoOiAkKCJxIikudmFsdWUsIGNhdGVnb3J5OiAkKCJmQ2F0IikudmFsdWUsIHNvdXJjZV9pZDogJCgiZlNyYyIpLnZhbHVlLAogICAgZW5hYmxlZDogJCgiZkVuIikudmFsdWUsIHBhZ2UsIHBlcl9wYWdlOiA1MCwKICB9KTsKICBjb25zdCBkID0gYXdhaXQgYXBpKCJHRVQiLCAiL2FwaS9jaGFubmVscz8iICsgcSk7CiAgc2VsZWN0ZWQgPSBuZXcgU2V0KCk7IHVwZGF0ZUJhdGNoQmFyKCk7CiAgJCgiY2hCb2R5IikuaW5uZXJIVE1MID0gZC5pdGVtcy5tYXAoKGMpID0+IGAKICAgIDx0ciBjbGFzcz0iJHtjLmVuYWJsZWQgPyAiIiA6ICJkaXNhYmxlZCJ9Ij4KICAgICAgPHRkPjxpbnB1dCB0eXBlPSJjaGVja2JveCIgZGF0YS1pZD0iJHtjLmlkfSIgb25jaGFuZ2U9InNlbE9uZSgke2MuaWR9LCB0aGlzLmNoZWNrZWQpIj48L3RkPgogICAgICA8dGQ+PGlucHV0IGNsYXNzPSJpbmxpbmUtZWRpdCIgdmFsdWU9IiR7ZXNjKGMubmFtZSl9IgogICAgICAgICAgIG9uY2hhbmdlPSJwYXRjaENoYW5uZWwoJHtjLmlkfSwge25hbWU6IHRoaXMudmFsdWV9KSIgdGl0bGU9IuWOn+WQje+8miR7ZXNjKGMub3JpZ19uYW1lKX0iPjwvdGQ+CiAgICAgIDx0ZD48aW5wdXQgY2xhc3M9ImlubGluZS1lZGl0IiBzdHlsZT0id2lkdGg6MTAwcHgiIHZhbHVlPSIke2VzYyhjLmNhdGVnb3J5KX0iCiAgICAgICAgICAgb25jaGFuZ2U9InBhdGNoQ2hhbm5lbCgke2MuaWR9LCB7Y2F0ZWdvcnk6IHRoaXMudmFsdWV9KSI+PC90ZD4KICAgICAgPHRkPiR7ZXNjKGMuc291cmNlX25hbWUpfTwvdGQ+CiAgICAgIDx0ZD48aW5wdXQgdHlwZT0iY2hlY2tib3giICR7Yy5lbmFibGVkID8gImNoZWNrZWQiIDogIiJ9CiAgICAgICAgICAgb25jaGFuZ2U9InBhdGNoQ2hhbm5lbCgke2MuaWR9LCB7ZW5hYmxlZDogdGhpcy5jaGVja2VkfSkiIHRpdGxlPSLlkK/nlKgv56aB55SoIj48L3RkPgogICAgICA8dGQ+PGJ1dHRvbiBjbGFzcz0iZ2hvc3QiIG9uY2xpY2s9ImRlbENoYW5uZWwoJHtjLmlkfSkiPuWIoOmZpDwvYnV0dG9uPjwvdGQ+CiAgICA8L3RyPmApLmpvaW4oIiIpOwogIGNvbnN0IHBhZ2VzID0gTWF0aC5tYXgoMSwgTWF0aC5jZWlsKGQudG90YWwgLyBkLnBlcl9wYWdlKSk7CiAgJCgicGFnZUluZm8iKS50ZXh0Q29udGVudCA9IGDnrKwgJHtjdXJQYWdlfSAvICR7cGFnZXN9IOmhte+8jOWFsSAke2QudG90YWx9IOS4qmA7CiAgJCgic2VsQWxsIikuY2hlY2tlZCA9IGZhbHNlOwogIGxvYWRTdGF0cygpOwp9CmZ1bmN0aW9uIHNlbE9uZShpZCwgb24pIHsgb24gPyBzZWxlY3RlZC5hZGQoaWQpIDogc2VsZWN0ZWQuZGVsZXRlKGlkKTsgdXBkYXRlQmF0Y2hCYXIoKTsgfQpmdW5jdGlvbiB0b2dnbGVBbGwob24pIHsKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCIjY2hCb2R5IGlucHV0W3R5cGU9Y2hlY2tib3hdW2RhdGEtaWRdIikuZm9yRWFjaCgoY2IpID0+IHsKICAgIGNiLmNoZWNrZWQgPSBvbjsgc2VsT25lKCtjYi5kYXRhc2V0LmlkLCBvbik7CiAgfSk7Cn0KZnVuY3Rpb24gdXBkYXRlQmF0Y2hCYXIoKSB7CiAgJCgiYmF0Y2hCYXIiKS5jbGFzc0xpc3QudG9nZ2xlKCJoaWRkZW4iLCBzZWxlY3RlZC5zaXplID09PSAwKTsKICAkKCJzZWxDb3VudCIpLnRleHRDb250ZW50ID0gc2VsZWN0ZWQuc2l6ZTsKfQphc3luYyBmdW5jdGlvbiBwYXRjaENoYW5uZWwoaWQsIHBhdGNoKSB7CiAgYXdhaXQgYXBpKCJQVVQiLCBgL2FwaS9jaGFubmVscy8ke2lkfWAsIHBhdGNoKTsKICBsb2FkQ2hhbm5lbHMoY3VyUGFnZSk7Cn0KYXN5bmMgZnVuY3Rpb24gZGVsQ2hhbm5lbChpZCkgewogIGlmICghY29uZmlybSgi5Yig6Zmk6L+Z5Liq6aKR6YGT77yfIikpIHJldHVybjsKICBhd2FpdCBhcGkoIkRFTEVURSIsIGAvYXBpL2NoYW5uZWxzLyR7aWR9YCk7CiAgbG9hZENoYW5uZWxzKGN1clBhZ2UpOwp9CmFzeW5jIGZ1bmN0aW9uIGJhdGNoT3Aob3ApIHsKICBjb25zdCBpZHMgPSBbLi4uc2VsZWN0ZWRdOwogIGlmIChvcCA9PT0gImRlbGV0ZSIgJiYgIWNvbmZpcm0oYOWIoOmZpOmAieS4reeahCAke2lkcy5sZW5ndGh9IOS4qumikemBk++8n2ApKSByZXR1cm47CiAgaWYgKG9wID09PSAibWVyZ2UiICYmICFjb25maXJtKGDmiorpgInkuK3nmoQgJHtpZHMubGVuZ3RofSDkuKrpopHpgZPlkIjlubbkuLogMSDkuKrvvIjkv53nlZkgSUQg5pyA5bCP6ICF77yJ77yfYCkpIHJldHVybjsKICBhd2FpdCBhcGkoIlBPU1QiLCAiL2FwaS9jaGFubmVscy9iYXRjaCIsIHsgaWRzLCBvcCB9KTsKICBsb2FkQ2hhbm5lbHMoY3VyUGFnZSk7Cn0KYXN5bmMgZnVuY3Rpb24gYmF0Y2hTZXRDYXQoKSB7CiAgY29uc3QgY2F0ID0gcHJvbXB0KCLlvZLnsbvliLDvvIjovpPlhaXliIbnsbvlkI3vvInvvJoiLCAkKCJmQ2F0IikudmFsdWUgfHwgIiIpOwogIGlmIChjYXQgPT09IG51bGwpIHJldHVybjsKICBhd2FpdCBhcGkoIlBPU1QiLCAiL2FwaS9jaGFubmVscy9iYXRjaCIsIHsgaWRzOiBbLi4uc2VsZWN0ZWRdLCBvcDogInNldF9jYXRlZ29yeSIsIGNhdGVnb3J5OiBjYXQgfSk7CiAgbG9hZENhdHMoKTsgbG9hZENoYW5uZWxzKGN1clBhZ2UpOwp9CgovKiAtLS0tIOWQjOWQjeWQiOW5tiAtLS0tICovCmFzeW5jIGZ1bmN0aW9uIGxvYWREdXBlcygpIHsKICBjb25zdCBkID0gYXdhaXQgYXBpKCJHRVQiLCAiL2FwaS9kdXBsaWNhdGVzIik7CiAgJCgiZHVwZUJhZGdlIikudGV4dENvbnRlbnQgPSBkLnRvdGFsX2dyb3VwcyB8fCAiIjsKICAkKCJkdXBlTGlzdCIpLmlubmVySFRNTCA9IGQuZ3JvdXBzLmxlbmd0aCA/IGQuZ3JvdXBzLm1hcCgoZywgaSkgPT4gYAogICAgPGRpdiBjbGFzcz0iZHVwZS1ncm91cCI+CiAgICAgIDxoND4ke2VzYyhnLmNoYW5uZWxzWzBdLm5hbWUpfSA8c21hbGwgc3R5bGU9ImNvbG9yOiM4ODgiPu+8iCR7Zy5jb3VudH0g5Liq6YeN5aSN77yJPC9zbWFsbD48L2g0PgogICAgICAke2cuY2hhbm5lbHMubWFwKChjKSA9PiBgCiAgICAgICAgPGxhYmVsPjxpbnB1dCB0eXBlPSJjaGVja2JveCIgZGF0YS1nPSIke2l9IiB2YWx1ZT0iJHtjLmlkfSIgY2hlY2tlZD4KICAgICAgICBbJHtlc2MoYy5jYXRlZ29yeSl9XSAke2VzYyhjLm5hbWUpfSA8c21hbGwgc3R5bGU9ImNvbG9yOiM4ODgiPiR7ZXNjKGMuc291cmNlX25hbWUpfSR7Yy5lbmFibGVkID8gIiIgOiAi77yI5bey56aB55So77yJIn08L3NtYWxsPjwvbGFiZWw+YCkuam9pbigiIil9CiAgICAgIDxidXR0b24gb25jbGljaz0ibWVyZ2VHcm91cCgke2l9KSI+5ZCI5bm26YCJ5Lit6aG5PC9idXR0b24+CiAgICA8L2Rpdj5gKS5qb2luKCIiKSA6ICc8cCBjbGFzcz0iaGludCI+5rKh5pyJ5Y+R546w6YeN5aSN6aKR6YGTIPCfjok8L3A+JzsKfQphc3luYyBmdW5jdGlvbiBtZXJnZUdyb3VwKGkpIHsKICBjb25zdCBpZHMgPSBbLi4uZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChgaW5wdXRbZGF0YS1nPSIke2l9Il06Y2hlY2tlZGApXS5tYXAoKHgpID0+ICt4LnZhbHVlKTsKICBpZiAoaWRzLmxlbmd0aCA8IDIpIHsgYWxlcnQoIuiHs+WwkeWLvumAiSAyIOS4quaJjeiDveWQiOW5tiIpOyByZXR1cm47IH0KICBpZiAoIWNvbmZpcm0oYOWQiOW5tui/mSAke2lkcy5sZW5ndGh9IOS4quS4uiAxIOS4qu+8iOS/neeVmSBJRCDmnIDlsI/ogIXvvInvvJ9gKSkgcmV0dXJuOwogIGF3YWl0IGFwaSgiUE9TVCIsICIvYXBpL2NoYW5uZWxzL2JhdGNoIiwgeyBpZHMsIG9wOiAibWVyZ2UiIH0pOwogIGxvYWREdXBlcygpOyBsb2FkU3RhdHMoKTsKfQoKLyogLS0tLSDorqLpmIXmupAgLS0tLSAqLwphc3luYyBmdW5jdGlvbiBhZGRTb3VyY2UoKSB7CiAgY29uc3QgbmFtZSA9ICQoInNyY05hbWUiKS52YWx1ZS50cmltKCksIHVybCA9ICQoInNyY1VybCIpLnZhbHVlLnRyaW0oKTsKICBjb25zdCBpbnRlcnZhbF9ob3VycyA9ICskKCJzcmNJbnRlcnZhbCIpLnZhbHVlIHx8IDEyOwogIGlmICghbmFtZSB8fCAhdXJsKSB7IGFsZXJ0KCLlkI3np7Dlkozpk77mjqXpg73opoHloasiKTsgcmV0dXJuOyB9CiAgY29uc3QgciA9IGF3YWl0IGFwaSgiUE9TVCIsICIvYXBpL3NvdXJjZXMiLCB7IG5hbWUsIHVybCwgaW50ZXJ2YWxfaG91cnMgfSk7CiAgJCgic3JjTmFtZSIpLnZhbHVlID0gIiI7ICQoInNyY1VybCIpLnZhbHVlID0gIiI7CiAgYXdhaXQgYXBpKCJQT1NUIiwgYC9hcGkvc291cmNlcy8ke3IuaWR9L3JlZnJlc2hgKS5jYXRjaCgoZSkgPT4gYWxlcnQoIua3u+WKoOaIkOWKn++8jOS9hummluasoeaKk+WPluWksei0pe+8miIgKyBlLm1lc3NhZ2UpKTsKICBsb2FkU291cmNlcygpOyBsb2FkU3RhdHMoKTsgbG9hZFNvdXJjZXNJbnRvKCJmU3JjIik7Cn0KYXN5bmMgZnVuY3Rpb24gbG9hZFNvdXJjZXMoKSB7CiAgY29uc3QgbGlzdCA9IGF3YWl0IGFwaSgiR0VUIiwgIi9hcGkvc291cmNlcyIpOwogICQoInNyY0xpc3QiKS5pbm5lckhUTUwgPSBsaXN0Lm1hcCgocykgPT4gYAogICAgPGRpdiBjbGFzcz0ic3Jjcm93Ij4KICAgICAgPGI+JHtlc2Mocy5uYW1lKX08L2I+CiAgICAgIDxzcGFuIGNsYXNzPSJtZXRhIj4ke2VzYyhzLnVybC5zbGljZSgwLCA2MCkpfeKApiDCtyDmr48gJHtzLmludGVydmFsX2hvdXJzfWgg5pu05pawIMK3CiAgICAgICAgJHtzLmxhc3Rfc3RhdHVzID09PSAib2siID8gIuKchSAiICsgZXNjKHMubGFzdF9tZXNzYWdlIHx8ICIiKSA6CiAgICAgICAgICBzLmxhc3Rfc3RhdHVzID09PSAiZXJyb3IiID8gIuKdjCAiICsgZXNjKHMubGFzdF9tZXNzYWdlIHx8ICIiKSA6ICLij7Mg5pyq5oqT5Y+WIn08L3NwYW4+CiAgICAgIDxzcGFuIHN0eWxlPSJmbGV4OjEiPjwvc3Bhbj4KICAgICAgPGJ1dHRvbiBjbGFzcz0iZ2hvc3QiIG9uY2xpY2s9InJlZnJlc2hTb3VyY2UoJHtzLmlkfSkiPueri+WNs+abtOaWsDwvYnV0dG9uPgogICAgICA8YnV0dG9uIGNsYXNzPSJnaG9zdCIgb25jbGljaz0idG9nZ2xlU291cmNlKCR7cy5pZH0sICR7IXMuZW5hYmxlZH0pIj4ke3MuZW5hYmxlZCA/ICLmmoLlgZwiIDogIuWQr+eUqCJ9PC9idXR0b24+CiAgICAgIDxidXR0b24gY2xhc3M9ImRhbmdlciIgb25jbGljaz0iZGVsU291cmNlKCR7cy5pZH0pIj7liKDpmaQ8L2J1dHRvbj4KICAgIDwvZGl2PmApLmpvaW4oIiIpIHx8ICc8cCBjbGFzcz0iaGludCI+6L+Y5rKh5pyJ6K6i6ZiF5rqQ77yM5YWI5re75Yqg5LiA5Liq5ZCnPC9wPic7Cn0KYXN5bmMgZnVuY3Rpb24gcmVmcmVzaFNvdXJjZShpZCkgewogIGNvbnN0IHIgPSBhd2FpdCBhcGkoIlBPU1QiLCBgL2FwaS9zb3VyY2VzLyR7aWR9L3JlZnJlc2hgKS5jYXRjaCgoZSkgPT4gKHsgZXJyb3I6IGUubWVzc2FnZSB9KSk7CiAgYWxlcnQoci5lcnJvciA/ICLmipPlj5blpLHotKXvvJoiICsgci5lcnJvciA6IGDmipPlj5blrozmiJDvvJrmlrDlop4gJHtyLmFkZGVkfe+8jOabtOaWsCAke3IudXBkYXRlZH1gKTsKICBsb2FkU291cmNlcygpOyBsb2FkU3RhdHMoKTsKfQphc3luYyBmdW5jdGlvbiB0b2dnbGVTb3VyY2UoaWQsIGVuYWJsZWQpIHsKICBjb25zdCBzID0gc291cmNlcy5maW5kKCh4KSA9PiB4LmlkID09PSBpZCk7CiAgYXdhaXQgYXBpKCJQVVQiLCBgL2FwaS9zb3VyY2VzLyR7aWR9YCwgeyBuYW1lOiBzLm5hbWUsIHVybDogcy51cmwsIGVuYWJsZWQsIGludGVydmFsX2hvdXJzOiBzLmludGVydmFsX2hvdXJzIH0pOwogIGxvYWRTb3VyY2VzKCk7Cn0KYXN5bmMgZnVuY3Rpb24gZGVsU291cmNlKGlkKSB7CiAgaWYgKCFjb25maXJtKCLliKDpmaTor6XorqLpmIXmupDlj4rlhbblhajpg6jpopHpgZPvvJ8iKSkgcmV0dXJuOwogIGF3YWl0IGFwaSgiREVMRVRFIiwgYC9hcGkvc291cmNlcy8ke2lkfWApOwogIGxvYWRTb3VyY2VzKCk7IGxvYWRTdGF0cygpOyBsb2FkU291cmNlc0ludG8oImZTcmMiKTsgbG9hZENhdHMoKTsKfQoKLyogLS0tLSDovpPlh7rorqLpmIUgLS0tLSAqLwpmdW5jdGlvbiBiYXNlVXJsKCkgeyByZXR1cm4gbG9jYXRpb24ub3JpZ2luOyB9CmFzeW5jIGZ1bmN0aW9uIGFkZFBsYXlsaXN0KCkgewogIGNvbnN0IG5hbWUgPSAkKCJwbE5hbWUiKS52YWx1ZS50cmltKCk7CiAgaWYgKCFuYW1lKSB7IGFsZXJ0KCLotbfkuKrlkI3lrZciKTsgcmV0dXJuOyB9CiAgY29uc3QgY2F0ZWdvcmllcyA9IFsuLi5kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCIjcGxDYXRzIGlucHV0OmNoZWNrZWQiKV0ubWFwKCh4KSA9PiB4LnZhbHVlKTsKICBjb25zdCBzZWFyY2ggPSAkKCJwbFNlYXJjaCIpLnZhbHVlLnRyaW0oKTsKICBjb25zdCBpbmNsdWRlX2JhY2t1cHMgPSAkKCJwbEJhY2t1cHMiKS5jaGVja2VkOwogIGF3YWl0IGFwaSgiUE9TVCIsICIvYXBpL3BsYXlsaXN0cyIsIHsgbmFtZSwgY2F0ZWdvcmllcywgc2VhcmNoLCBpbmNsdWRlX2JhY2t1cHMgfSk7CiAgJCgicGxOYW1lIikudmFsdWUgPSAiIjsgJCgicGxTZWFyY2giKS52YWx1ZSA9ICIiOwogIGxvYWRQbGF5bGlzdHMoKTsgbG9hZFN0YXRzKCk7Cn0KYXN5bmMgZnVuY3Rpb24gbG9hZFBsYXlsaXN0cygpIHsKICBjb25zdCBsaXN0ID0gYXdhaXQgYXBpKCJHRVQiLCAiL2FwaS9wbGF5bGlzdHMiKTsKICAkKCJwbExpc3QiKS5pbm5lckhUTUwgPSBsaXN0Lm1hcCgocCkgPT4gewogICAgY29uc3QgdXJsID0gYCR7YmFzZVVybCgpfS9wLyR7cC5pZH0ubTN1YDsKICAgIGNvbnN0IGYgPSBwLmZpbHRlcnM7CiAgICBjb25zdCBkZXNjID0gW2YuY2F0ZWdvcmllcz8ubGVuZ3RoID8gIuWIhuexuzoiICsgZi5jYXRlZ29yaWVzLmpvaW4oIiwiKSA6IG51bGwsCiAgICAgIGYuc2VhcmNoID8gIuWFs+mUruivjToiICsgZi5zZWFyY2ggOiBudWxsLAogICAgICBmLmluY2x1ZGVfYmFja3VwcyA/ICLlkKvlpIfnlKjmupAiIDogbnVsbF0uZmlsdGVyKEJvb2xlYW4pLmpvaW4oIu+8myIpIHx8ICLlhajpg6jpopHpgZMiOwogICAgcmV0dXJuIGA8ZGl2IGNsYXNzPSJwbHJvdyI+PGI+JHtlc2MocC5uYW1lKX08L2I+PHNtYWxsIGNsYXNzPSJoaW50Ij4ke2VzYyhkZXNjKX08L3NtYWxsPgogICAgICA8Y29kZT4ke2VzYyh1cmwpfTwvY29kZT4KICAgICAgPGJ1dHRvbiBvbmNsaWNrPSJjb3B5VGV4dCgnJHt1cmx9JykiPuWkjeWItjwvYnV0dG9uPgogICAgICA8YnV0dG9uIGNsYXNzPSJkYW5nZXIiIG9uY2xpY2s9ImRlbFBsYXlsaXN0KCR7cC5pZH0pIj7liKDpmaQ8L2J1dHRvbj48L2Rpdj5gOwogIH0pLmpvaW4oIiIpIHx8ICc8cCBjbGFzcz0iaGludCI+6L+Y5rKh5pyJ6Ieq5a6a5LmJ6L6T5Ye677yM5YWI5Yib5bu65LiA5Liq5ZCnPC9wPic7CiAgdXBkYXRlQWRob2MoKTsKfQphc3luYyBmdW5jdGlvbiBkZWxQbGF5bGlzdChpZCkgewogIGlmICghY29uZmlybSgi5Yig6Zmk6L+Z5Liq6L6T5Ye66K6i6ZiF77yfIikpIHJldHVybjsKICBhd2FpdCBhcGkoIkRFTEVURSIsIGAvYXBpL3BsYXlsaXN0cy8ke2lkfWApOwogIGxvYWRQbGF5bGlzdHMoKTsgbG9hZFN0YXRzKCk7Cn0KZnVuY3Rpb24gdXBkYXRlQWRob2MoKSB7CiAgY29uc3QgY2F0ID0gJCgiYWRob2NDYXQiKS52YWx1ZTsKICAkKCJhZGhvY1VybCIpLnRleHRDb250ZW50ID0gYCR7YmFzZVVybCgpfS9wbGF5bGlzdC5tM3VgICsgKGNhdCA/IGA/Y2F0ZWdvcnk9JHtlbmNvZGVVUklDb21wb25lbnQoY2F0KX1gIDogIiIpOwogICQoImxhbkhpbnQiKS50ZXh0Q29udGVudCA9IGxvY2F0aW9uLmhvc3RuYW1lICsgKGxvY2F0aW9uLnBvcnQgPyAiOiIgKyBsb2NhdGlvbi5wb3J0IDogIiIpOwp9CgovKiAtLS0tIGluaXQgLS0tLSAqLwooYXN5bmMgKCkgPT4gewogIGF3YWl0IGxvYWRTdGF0cygpOyBhd2FpdCBsb2FkQ2F0cygpOyBhd2FpdCBsb2FkU291cmNlc0ludG8oImZTcmMiKTsKICBhd2FpdCBsb2FkQ2hhbm5lbHMoMSk7IHVwZGF0ZUFkaG9jKCk7Cn0pKCk7Cg==
+/* IPTV Manager 前端 */
+const $ = (id) => document.getElementById(id);
+const api = async (method, path, body) => {
+  const r = await fetch(path, {
+    method,
+    headers: body ? { "Content-Type": "application/json" } : {},
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  if (!r.ok) { const t = await r.text(); throw new Error(t || r.statusText); }
+  return r.json();
+};
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const copyText = (t) => { navigator.clipboard.writeText(t); alert("已复制"); };
+
+let curPage = 1, selected = new Set(), cats = [], sources = [];
+
+/* ---- tabs ---- */
+document.querySelectorAll(".tab").forEach((b) => b.onclick = () => {
+  document.querySelectorAll(".tab").forEach((x) => x.classList.remove("active"));
+  document.querySelectorAll(".tabpane").forEach((x) => x.classList.remove("active"));
+  b.classList.add("active");
+  $("tab-" + b.dataset.tab).classList.add("active");
+  if (b.dataset.tab === "dupes") loadDupes();
+  if (b.dataset.tab === "sources") loadSources();
+  if (b.dataset.tab === "playlists") loadPlaylists();
+  if (b.dataset.tab === "channels") { loadCats(); loadChannels(1); }
+});
+
+/* ---- stats ---- */
+async function loadStats() {
+  const s = await api("GET", "/api/stats");
+  $("stats").textContent = `频道 ${s.channels}（启用 ${s.enabled}）· 订阅源 ${s.sources} · 输出订阅 ${s.playlists}`;
+}
+
+/* ---- 频道 ---- */
+let debT;
+function debouncedLoad() { clearTimeout(debT); debT = setTimeout(() => loadChannels(1), 400); }
+function page(d) { loadChannels(curPage + d); }
+
+async function loadCats() {
+  cats = await api("GET", "/api/categories");
+  const opts = ['<option value="">全部分类</option>'].concat(
+    cats.map((c) => `<option value="${esc(c.name)}">${esc(c.name)} (${c.count})</option>`));
+  $("fCat").innerHTML = opts.join("");
+  $("adhocCat").innerHTML = opts.join("");
+  $("plCats").innerHTML = cats.map((c) =>
+    `<label><input type="checkbox" value="${esc(c.name)}"> ${esc(c.name)}</label>`).join("");
+}
+async function loadSourcesInto(sel) {
+  sources = await api("GET", "/api/sources");
+  $(sel).innerHTML = '<option value="0">全部来源</option>' + sources.map((s) =>
+    `<option value="${s.id}">${esc(s.name)}</option>`).join("");
+}
+
+async function loadChannels(p) {
+  curPage = Math.max(1, p);
+  const q = new URLSearchParams({
+    search: $("q").value, category: $("fCat").value, source_id: $("fSrc").value,
+    enabled: $("fEn").value, page, per_page: 50,
+  });
+  const d = await api("GET", "/api/channels?" + q);
+  selected = new Set(); updateBatchBar();
+  $("chBody").innerHTML = d.items.map((c) => `
+    <tr class="${c.enabled ? "" : "disabled"}">
+      <td><input type="checkbox" data-id="${c.id}" onchange="selOne(${c.id}, this.checked)"></td>
+      <td><input class="inline-edit" value="${esc(c.name)}"
+           onchange="patchChannel(${c.id}, {name: this.value})" title="原名：${esc(c.orig_name)}"></td>
+      <td><input class="inline-edit" style="width:100px" value="${esc(c.category)}"
+           onchange="patchChannel(${c.id}, {category: this.value})"></td>
+      <td>${esc(c.source_name)}</td>
+      <td><input type="checkbox" ${c.enabled ? "checked" : ""}
+           onchange="patchChannel(${c.id}, {enabled: this.checked})" title="启用/禁用"></td>
+      <td><button class="ghost" onclick="delChannel(${c.id})">删除</button></td>
+    </tr>`).join("");
+  const pages = Math.max(1, Math.ceil(d.total / d.per_page));
+  $("pageInfo").textContent = `第 ${curPage} / ${pages} 页，共 ${d.total} 个`;
+  $("selAll").checked = false;
+  loadStats();
+}
+function selOne(id, on) { on ? selected.add(id) : selected.delete(id); updateBatchBar(); }
+function toggleAll(on) {
+  document.querySelectorAll("#chBody input[type=checkbox][data-id]").forEach((cb) => {
+    cb.checked = on; selOne(+cb.dataset.id, on);
+  });
+}
+function updateBatchBar() {
+  $("batchBar").classList.toggle("hidden", selected.size === 0);
+  $("selCount").textContent = selected.size;
+}
+async function patchChannel(id, patch) {
+  await api("PUT", `/api/channels/${id}`, patch);
+  loadChannels(curPage);
+}
+async function delChannel(id) {
+  if (!confirm("删除这个频道？")) return;
+  await api("DELETE", `/api/channels/${id}`);
+  loadChannels(curPage);
+}
+async function batchOp(op) {
+  const ids = [...selected];
+  if (op === "delete" && !confirm(`删除选中的 ${ids.length} 个频道？`)) return;
+  if (op === "merge" && !confirm(`把选中的 ${ids.length} 个频道合并为 1 个（保留 ID 最小者）？`)) return;
+  await api("POST", "/api/channels/batch", { ids, op });
+  loadChannels(curPage);
+}
+async function batchSetCat() {
+  const cat = prompt("归类到（输入分类名）：", $("fCat").value || "");
+  if (cat === null) return;
+  await api("POST", "/api/channels/batch", { ids: [...selected], op: "set_category", category: cat });
+  loadCats(); loadChannels(curPage);
+}
+
+/* ---- 同名合并 ---- */
+async function loadDupes() {
+  const d = await api("GET", "/api/duplicates");
+  $("dupeBadge").textContent = d.total_groups || "";
+  $("dupeList").innerHTML = d.groups.length ? d.groups.map((g, i) => `
+    <div class="dupe-group">
+      <h4>${esc(g.channels[0].name)} <small style="color:#888">（${g.count} 个重复）</small></h4>
+      ${g.channels.map((c) => `
+        <label><input type="checkbox" data-g="${i}" value="${c.id}" checked>
+        [${esc(c.category)}] ${esc(c.name)} <small style="color:#888">${esc(c.source_name)}${c.enabled ? "" : "（已禁用）"}</small></label>`).join("")}
+      <button onclick="mergeGroup(${i})">合并选中项</button>
+    </div>`).join("") : '<p class="hint">没有发现重复频道 🎉</p>';
+}
+async function mergeGroup(i) {
+  const ids = [...document.querySelectorAll(`input[data-g="${i}"]:checked`)].map((x) => +x.value);
+  if (ids.length < 2) { alert("至少勾选 2 个才能合并"); return; }
+  if (!confirm(`合并这 ${ids.length} 个为 1 个（保留 ID 最小者）？`)) return;
+  await api("POST", "/api/channels/batch", { ids, op: "merge" });
+  loadDupes(); loadStats();
+}
+
+/* ---- 订阅源 ---- */
+async function addSource() {
+  const name = $("srcName").value.trim(), url = $("srcUrl").value.trim();
+  const interval_hours = +$("srcInterval").value || 12;
+  if (!name || !url) { alert("名称和链接都要填"); return; }
+  const r = await api("POST", "/api/sources", { name, url, interval_hours });
+  $("srcName").value = ""; $("srcUrl").value = "";
+  await api("POST", `/api/sources/${r.id}/refresh`).catch((e) => alert("添加成功，但首次抓取失败：" + e.message));
+  loadSources(); loadStats(); loadSourcesInto("fSrc");
+}
+async function loadSources() {
+  const list = await api("GET", "/api/sources");
+  $("srcList").innerHTML = list.map((s) => `
+    <div class="srcrow">
+      <b>${esc(s.name)}</b>
+      <span class="meta">${esc(s.url.slice(0, 60))}… · 每 ${s.interval_hours}h 更新 ·
+        ${s.last_status === "ok" ? "✅ " + esc(s.last_message || "") :
+          s.last_status === "error" ? "❌ " + esc(s.last_message || "") : "⏳ 未抓取"}</span>
+      <span style="flex:1"></span>
+      <button class="ghost" onclick="refreshSource(${s.id})">立即更新</button>
+      <button class="ghost" onclick="toggleSource(${s.id}, ${!s.enabled})">${s.enabled ? "暂停" : "启用"}</button>
+      <button class="danger" onclick="delSource(${s.id})">删除</button>
+    </div>`).join("") || '<p class="hint">还没有订阅源，先添加一个吧</p>';
+}
+async function refreshSource(id) {
+  const r = await api("POST", `/api/sources/${id}/refresh`).catch((e) => ({ error: e.message }));
+  alert(r.error ? "抓取失败：" + r.error : `抓取完成：新增 ${r.added}，更新 ${r.updated}`);
+  loadSources(); loadStats();
+}
+async function toggleSource(id, enabled) {
+  const s = sources.find((x) => x.id === id);
+  await api("PUT", `/api/sources/${id}`, { name: s.name, url: s.url, enabled, interval_hours: s.interval_hours });
+  loadSources();
+}
+async function delSource(id) {
+  if (!confirm("删除该订阅源及其全部频道？")) return;
+  await api("DELETE", `/api/sources/${id}`);
+  loadSources(); loadStats(); loadSourcesInto("fSrc"); loadCats();
+}
+
+/* ---- 输出订阅 ---- */
+function baseUrl() { return location.origin; }
+async function addPlaylist() {
+  const name = $("plName").value.trim();
+  if (!name) { alert("起个名字"); return; }
+  const categories = [...document.querySelectorAll("#plCats input:checked")].map((x) => x.value);
+  const search = $("plSearch").value.trim();
+  const include_backups = $("plBackups").checked;
+  await api("POST", "/api/playlists", { name, categories, search, include_backups });
+  $("plName").value = ""; $("plSearch").value = "";
+  loadPlaylists(); loadStats();
+}
+async function loadPlaylists() {
+  const list = await api("GET", "/api/playlists");
+  $("plList").innerHTML = list.map((p) => {
+    const url = `${baseUrl()}/p/${p.id}.m3u`;
+    const f = p.filters;
+    const desc = [f.categories?.length ? "分类:" + f.categories.join(",") : null,
+      f.search ? "关键词:" + f.search : null,
+      f.include_backups ? "含备用源" : null].filter(Boolean).join("；") || "全部频道";
+    return `<div class="plrow"><b>${esc(p.name)}</b><small class="hint">${esc(desc)}</small>
+      <code>${esc(url)}</code>
+      <button onclick="copyText('${url}')">复制</button>
+      <button class="danger" onclick="delPlaylist(${p.id})">删除</button></div>`;
+  }).join("") || '<p class="hint">还没有自定义输出，先创建一个吧</p>';
+  updateAdhoc();
+}
+async function delPlaylist(id) {
+  if (!confirm("删除这个输出订阅？")) return;
+  await api("DELETE", `/api/playlists/${id}`);
+  loadPlaylists(); loadStats();
+}
+function updateAdhoc() {
+  const cat = $("adhocCat").value;
+  $("adhocUrl").textContent = `${baseUrl()}/playlist.m3u` + (cat ? `?category=${encodeURIComponent(cat)}` : "");
+  $("lanHint").textContent = location.hostname + (location.port ? ":" + location.port : "");
+}
+
+/* ---- init ---- */
+(async () => {
+  await loadStats(); await loadCats(); await loadSourcesInto("fSrc");
+  await loadChannels(1); updateAdhoc();
+})();
