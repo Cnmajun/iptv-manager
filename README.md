@@ -1,1 +1,64 @@
-IyDwn5O6IElQVFYg6K6i6ZiF566h55CG5ZmoCgrmiornvZHkuIrmlLbpm4bnmoQgSVBUVu+8iE0zVe+8ieiuoumYhea6kOaVtOWQiOi1t+adpe+8jOWumuaXtuiHquWKqOabtOaWsO+8jOaUr+aMgeaUueWQjeOAgeWIoOmZpOOAgeW9kuexu+OAgeWQjOWQjeWQiOW5tu+8jOW5tui+k+WHuuWPr+WumuWItueahOiuoumYhemTvuaOpe+8jOS+m+WxgOWfn+e9keWGheeahOaSreaUvuWZqCAvIOacuumhtuebkuS9v+eUqOOAggoKIyMg5Yqf6IO9CgotICoq5aSa5rqQ6IGa5ZCIKirvvJrmt7vliqDlpJrkuKrkuIrmuLggTTNVIOiuoumYhemTvuaOpe+8jOavj+S4qua6kOWPr+WNleeLrOiuvue9ruabtOaWsOmXtOmalAotICoq5a6a5pe25pu05pawKirvvJrmjInorr7lrprpl7TpmpToh6rliqjmipPlj5bvvIjpu5jorqQgMTIg5bCP5pe277yJ77yM5Lmf5Y+v5omL5YqoIueri+WNs+abtOaWsCLvvJvlop7ph4/lhaXlupPvvIzkuI3opobnm5bkvaDmlLnov4fnmoTpopHpgZPlkI3lkozliIbnsbsKLSAqKuaUueWQjSoq77ya55u05o6l5Zyo5YiX6KGo6YeM5pS56aKR6YGT5pi+56S65ZCN77yI5L+d55WZ5rqQ56uZ5Y6f5ZCN5aSH5p+l77yJCi0gKirliKDpmaQgLyDnpoHnlKgqKu+8muWNleS4quWIoOmZpOOAgeaJuemHj+WIoOmZpO+8jOaIluS7heemgeeUqO+8iOS4jeWHuueOsOWcqOi+k+WHuuiuoumYhemHjO+8iQotICoq5b2S57G7KirvvJroh6rnlLHloavlhpnliIbnsbvvvIzmibnph4/lvZLnsbsKLSAqKuWQjOWQjeWQiOW5tioq77ya6Ieq5Yqo5oyJ5b2S5LiA5YyW6aKR6YGT5ZCN77yI5b+955Wl5aSn5bCP5YaZ44CB56m65qC844CB6auY5riFL+i2hea4heetieWQjue8gO+8ieaJvuWHuumHjeWkje+8jOS4gOmUruWQiOW5tu+8m+iiq+WQiOW5tueahOaSreaUvuWcsOWdgOS/neeVmeS4uioq5aSH55So5rqQKirvvIzkuLvmupDlpLHmlYjlj6/miYvliqjliIfmjaLvvIzovpPlh7rorqLpmIXlj6/pgIki5ZCr5aSH55So5rqQIgotICoq5a6a5Yi26L6T5Ye6KirvvJoKICAtIOWNs+aXtuiuoumYhe+8mmAvcGxheWxpc3QubTN1P2NhdGVnb3J5PeWkruinhizljavop4Zg77yI5YiG57G76YCX5Y+35YiG6ZqU77yM5pSv5oyBIGBzZWFyY2g9YCDlhbPplK7or43vvIkKICAtIOS/neWtmOeahOi+k+WHuumFjee9ru+8mmAvcC97aWR9Lm0zdWDvvIzmjInliIbnsbsv5YWz6ZSu6K+N57uE5ZCI77yM6ZO+5o6l5Zu65a6a5LiN5Y+YCgojIyDlv6vpgJ/kuIrmiYvvvIhEb2NrZXLvvIkKCmBgYGJhc2gKZG9ja2VyIGNvbXBvc2UgdXAgLWQKYGBgCgrnhLblkI7mtY/op4jlmajmiZPlvIAgYGh0dHA6Ly885L2g55qE5pyN5Yqh5ZmoSVA+OjgwODBg77yI5bGA5Z+f572R5YaF5oqKIElQIOaNouaIkOacuuWZqOeahOWxgOWfn+e9kSBJUO+8jOWmgiBgaHR0cDovLzE5Mi4xNjguMS4xMDo4MDgwYO+8ieOAggoK5pWw5o2u5L+d5a2Y5ZyoIGAuL2RhdGEvaXB0di5kYmDvvIjlt7LmjILovb0gdm9sdW1l77yM6YeN5bu65a655Zmo5LiN5Lii5aSx77yJ44CCCgojIyDlj6/pgInvvJrorqLpmIXpk77mjqXliqAgdG9rZW4KCuWxgOWfn+e9keWGheWmguaenOS4jeaDs+iiq+WIq+S6uui5reiuoumYhe+8jOWPr+S7peiuvue9rueOr+Wig+WPmOmHjyBgUExBWUxJU1RfVE9LRU5g77yIZG9ja2VyLWNvbXBvc2UueW1sIOmHjOWKoOS4gOihjCBgLSBQTEFZTElTVF9UT0tFTj1hYmMxMjNg77yJ77yM5LmL5ZCO5omA5pyJIGAvcC8qLm0zdWAg5ZKMIGAvcGxheWxpc3QubTN1YCDpg73lv4XpobvluKYgYD90b2tlbj1hYmMxMjNgIOaJjeiDveiuv+mXruOAguS4jeiuvue9ruWImeaXoOmcgCB0b2tlbuOAggoKIyMg5ZyoIE9wZW5XcnQg6L2v6Lev55Sx5LiK6LeRCgoxLiDlhYjoo4Xlpb0gRG9ja2Vy77yIYGRvY2tlcmRgICsgYGx1Y2ktYXBwLWRvY2tlcm1hbmDvvIkKMi4g5oqK5pys6aG555uu5Lyg5Yiw6L2v6Lev55Sx77yMYGRvY2tlciBjb21wb3NlIHVwIC1kYO+8iOaIluWcqCBkb2NrZXJtYW4g6YeM5omL5Yqo5bu65a655Zmo77yM6ZWc5YOPIGJ1aWxkIOacrOWcsCBEb2NrZXJmaWxl77yM5pig5bCEIDgwODAg56uv5Y+j77yM5oyC6L29IGAvZGF0YWDvvIkKMy4g5bGA5Z+f572R6K6+5aSH55SoIGBodHRwOi8vPOi9r+i3r+eUsUlQPjo4MDgwYCDorr/pl67nrqHnkIbpobXvvIzorqLpmIXpk77mjqXloavliLDmkq3mlL7lmajljbPlj68KCiMjIOacrOWcsOW8gOWPkei/kOihjAoKYGBgYmFzaApwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0CnV2aWNvcm4gYXBwLm1haW46YXBwIC0tcmVsb2FkIC0tcG9ydCA4MDgwCmBgYAoKIyMgQVBJIOS4gOiniAoKfCDmlrnms5UgfCDot6/lvoQgfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18CnwgR0VUL1BPU1QgfCAvYXBpL3NvdXJjZXMgfCDorqLpmIXmupDliJfooaggLyDmlrDlop4gfAp8IFBVVC9ERUxFVEUgfCAvYXBpL3NvdXJjZXMve2lkfSB8IOS/ruaUuSAvIOWIoOmZpO+8iOWQq+WFtumikemBk++8iSB8CnwgUE9TVCB8IC9hcGkvc291cmNlcy97aWR9L3JlZnJlc2ggfCDnq4vljbPmipPlj5YgfAp8IEdFVCB8IC9hcGkvY2hhbm5lbHMgfCDpopHpgZPliJfooajvvIhzZWFyY2gvY2F0ZWdvcnkvc291cmNlX2lkL2VuYWJsZWQvcGFnZe+8iSB8CnwgUFVUL0RFTEVURSB8IC9hcGkvY2hhbm5lbHMve2lkfSB8IOaUueWQjS/lvZLnsbsv5ZCv56aBIC8g5Yig6ZmkIHwKfCBQT1NUIHwgL2FwaS9jaGFubmVscy9iYXRjaCB8IOaJuemHj++8mmRlbGV0ZS9lbmFibGUvZGlzYWJsZS9zZXRfY2F0ZWdvcnkvbWVyZ2UgfAp8IEdFVCB8IC9hcGkvZHVwbGljYXRlcyB8IOWQjOWQjemHjeWkjeWIhue7hCB8CnwgR0VUIHwgL2FwaS9jYXRlZ29yaWVzIHwg5YiG57G75Y+K5pWw6YePIHwKfCBHRVQvUE9TVCB8IC9hcGkvcGxheWxpc3RzIHwg6L6T5Ye66YWN572u5YiX6KGoIC8g5paw5bu6IHwKfCBHRVQgfCAvcC97aWR9Lm0zdSB8IOi+k+WHuumFjee9ruWvueW6lOeahOiuoumYhSB8CnwgR0VUIHwgL3BsYXlsaXN0Lm0zdSB8IOWNs+aXtuiuoumYhe+8iGNhdGVnb3J5L3NlYXJjaC9zb3VyY2VfaWQg5Y+C5pWw77yJIHwKCiMjIOivtOaYjgoKLSDmipPlj5blpLHotKXvvIjmupDnq5nmjILkuobjgIHotoXml7bvvInkvJrlnKjorqLpmIXmupDliJfooajph4zmoIfnuqLmj5DnpLrvvIzkuI3lvbHlk43lt7LmnInmlbDmja4KLSDlkIjlubbpopHpgZPpu5jorqTkv53nlZkgSUQg5pyA5bCP55qE5LiA5Liq77yM5YW25L2Z5Yig6Zmk77yM5pON5L2c5YmN5Lya5LqM5qyh56Gu6K6kCi0g5pys6aG555uu5Y+q5YGa6K6i6ZiF5YiX6KGo55qE6IGa5ZCI566h55CG77yM5LiN5o+Q5L6b44CB5LiN5a2Y5YKo5Lu75L2V55u05pKt5rqQ5YaF5a65Cg==
+# 📺 IPTV 订阅管理器
+
+把网上收集的 IPTV（M3U）订阅源整合起来，定时自动更新，支持改名、删除、归类、同名合并，并输出可定制的订阅链接，供局域网内的播放器 / 机顶盒使用。
+
+## 功能
+
+- **多源聚合**：添加多个上游 M3U 订阅链接，每个源可单独设置更新间隔
+- **定时更新**：按设定间隔自动抓取（默认 12 小时），也可手动"立即更新"；增量入库，不覆盖你改过的频道名和分类
+- **改名**：直接在列表里改频道显示名（保留源站原名备查）
+- **删除 / 禁用**：单个删除、批量删除，或仅禁用（不出现在输出订阅里）
+- **归类**：自由填写分类，批量归类
+- **同名合并**：自动按归一化频道名（忽略大小写、空格、高清/超清等后缀）找出重复，一键合并；被合并的播放地址保留为**备用源**，主源失效可手动切换，输出订阅可选"含备用源"
+- **定制输出**：
+  - 即时订阅：`/playlist.m3u?category=央视,卫视`（分类逗号分隔，支持 `search=` 关键词）
+  - 保存的输出配置：`/p/{id}.m3u`，按分类/关键词组合，链接固定不变
+
+## 快速上手（Docker）
+
+```bash
+docker compose up -d
+```
+
+然后浏览器打开 `http://<你的服务器IP>:8080`（局域网内把 IP 换成机器的局域网 IP，如 `http://192.168.1.10:8080`）。
+
+数据保存在 `./data/iptv.db`（已挂载 volume，重建容器不丢失）。
+
+## 可选：订阅链接加 token
+
+局域网内如果不想被别人蹭订阅，可以设置环境变量 `PLAYLIST_TOKEN`（docker-compose.yml 里加一行 `- PLAYLIST_TOKEN=abc123`），之后所有 `/p/*.m3u` 和 `/playlist.m3u` 都必须带 `?token=abc123` 才能访问。不设置则无需 token。
+
+## 在 OpenWrt 软路由上跑
+
+1. 先装好 Docker（`dockerd` + `luci-app-dockerman`）
+2. 把本项目传到软路由，`docker compose up -d`（或在 dockerman 里手动建容器，镜像 build 本地 Dockerfile，映射 8080 端口，挂载 `/data`）
+3. 局域网设备用 `http://<软路由IP>:8080` 访问管理页，订阅链接填到播放器即可
+
+## 本地开发运行
+
+```bash
+pip install -r requirements.txt
+uvicorn app.main:app --reload --port 8080
+```
+
+## API 一览
+
+| 方法 | 路径 | 说明 |
+|---|---|---|
+| GET/POST | /api/sources | 订阅源列表 / 新增 |
+| PUT/DELETE | /api/sources/{id} | 修改 / 删除（含其频道） |
+| POST | /api/sources/{id}/refresh | 立即抓取 |
+| GET | /api/channels | 频道列表（search/category/source_id/enabled/page） |
+| PUT/DELETE | /api/channels/{id} | 改名/归类/启禁 / 删除 |
+| POST | /api/channels/batch | 批量：delete/enable/disable/set_category/merge |
+| GET | /api/duplicates | 同名重复分组 |
+| GET | /api/categories | 分类及数量 |
+| GET/POST | /api/playlists | 输出配置列表 / 新建 |
+| GET | /p/{id}.m3u | 输出配置对应的订阅 |
+| GET | /playlist.m3u | 即时订阅（category/search/source_id 参数） |
+
+## 说明
+
+- 抓取失败（源站挂了、超时）会在订阅源列表里标红提示，不影响已有数据
+- 合并频道默认保留 ID 最小的一个，其余删除，操作前会二次确认
+- 本项目只做订阅列表的聚合管理，不提供、不存储任何直播源内容
