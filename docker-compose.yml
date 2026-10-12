@@ -1,1 +1,12 @@
-c2VydmljZXM6CiAgaXB0di1tYW5hZ2VyOgogICAgYnVpbGQ6IC4KICAgIGltYWdlOiBpcHR2LW1hbmFnZXI6bGF0ZXN0CiAgICBjb250YWluZXJfbmFtZTogaXB0di1tYW5hZ2VyCiAgICByZXN0YXJ0OiB1bmxlc3Mtc3RvcHBlZAogICAgcG9ydHM6CiAgICAgIC0gIjgwODA6ODA4MCIKICAgIHZvbHVtZXM6CiAgICAgIC0gLi9kYXRhOi9kYXRhCiAgICBlbnZpcm9ubWVudDoKICAgICAgLSBUWj1Bc2lhL1NoYW5naGFpCg==
+services:
+  iptv-manager:
+    build: .
+    image: iptv-manager:latest
+    container_name: iptv-manager
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=Asia/Shanghai
