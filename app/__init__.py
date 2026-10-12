@@ -1,0 +1,1 @@
+"""IPTV Manager app package."""
