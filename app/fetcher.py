@@ -1,1 +1,102 @@
-IiIi6K6i6ZiF5rqQ5oqT5Y+W77ya5LiL6L29IE0zVSAtPiDop6PmnpAgLT4g5oyJIChzb3VyY2VfaWQsIHVybCkgdXBzZXJ0IOWFpeW6k+OAgiIiIgppbXBvcnQgbG9nZ2luZwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKaW1wb3J0IGh0dHB4Cgpmcm9tIC5kYiBpbXBvcnQgU2Vzc2lvbkxvY2FsCmZyb20gLm1vZGVscyBpbXBvcnQgU291cmNlLCBDaGFubmVsCmZyb20gLm0zdSBpbXBvcnQgcGFyc2VfbTN1LCBub3JtYWxpemVfbmFtZQoKbG9nID0gbG9nZ2luZy5nZXRMb2dnZXIoImlwdHYuZmV0Y2hlciIpClRJTUVPVVQgPSAzMAoKCmRlZiBfaHR0cF9jbGllbnQoKSAtPiBodHRweC5DbGllbnQ6CiAgICBrd2FyZ3MgPSBkaWN0KAogICAgICAgIHRpbWVvdXQ9VElNRU9VVCwKICAgICAgICBmb2xsb3dfcmVkaXJlY3RzPVRydWUsCiAgICAgICAgaGVhZGVycz17IlVzZXItQWdlbnQiOiAiTW96aWxsYS81LjAgKGlwdHYtbWFuYWdlcikifSwKICAgICkKICAgIHRyeToKICAgICAgICByZXR1cm4gaHR0cHguQ2xpZW50KCoqa3dhcmdzKSAgIyDkvJjlhYjotbDns7vnu5/ku6PnkIborr7nva4KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxIC0g5Luj55CG546v5aKD5Y+Y6YeP5o2f5Z2P5pe255u06L+eCiAgICAgICAgbG9nLndhcm5pbmcoInByb3h5IGVudiB1bnVzYWJsZSAoJXMpLCBjb25uZWN0aW5nIGRpcmVjdGx5IiwgZSkKICAgICAgICByZXR1cm4gaHR0cHguQ2xpZW50KCoqa3dhcmdzLCB0cnVzdF9lbnY9RmFsc2UpCgoKZGVmIGZldGNoX3NvdXJjZShzb3VyY2VfaWQ6IGludCkgLT4gZGljdDoKICAgICIiIuaKk+WPluWNleS4qua6kO+8jOi/lOWbniB7ImFkZGVkIjogbiwgInVwZGF0ZWQiOiBuLCAidG90YWwiOiBufSDmiJYgeyJlcnJvciI6IG1zZ33jgIIiIiIKICAgIGRiID0gU2Vzc2lvbkxvY2FsKCkKICAgIHRyeToKICAgICAgICBzcmMgPSBkYi5nZXQoU291cmNlLCBzb3VyY2VfaWQpCiAgICAgICAgaWYgbm90IHNyYzoKICAgICAgICAgICAgcmV0dXJuIHsiZXJyb3IiOiAic291cmNlIG5vdCBmb3VuZCJ9CiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aXRoIF9odHRwX2NsaWVudCgpIGFzIGNsaWVudDoKICAgICAgICAgICAgICAgIHIgPSBjbGllbnQuZ2V0KHNyYy51cmwpCiAgICAgICAgICAgICAgICByLnJhaXNlX2Zvcl9zdGF0dXMoKQogICAgICAgICAgICAgICAgdGV4dCA9IHIudGV4dAogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgbm9xYTogQkxFMDAxIC0g5oqT5Y+W5aSx6LSl5Y+q6K6w5b2VCiAgICAgICAgICAgIHNyYy5sYXN0X3N0YXR1cyA9ICJlcnJvciIKICAgICAgICAgICAgc3JjLmxhc3RfbWVzc2FnZSA9IGYie3R5cGUoZSkuX19uYW1lX199OiB7ZX0iWzo1MDBdCiAgICAgICAgICAgIHNyYy5sYXN0X2ZldGNoID0gZGF0ZXRpbWUudXRjbm93KCkKICAgICAgICAgICAgZGIuY29tbWl0KCkKICAgICAgICAgICAgbG9nLndhcm5pbmcoImZldGNoIHNvdXJjZSAlcyBmYWlsZWQ6ICVzIiwgc3JjLm5hbWUsIGUpCiAgICAgICAgICAgIHJldHVybiB7ImVycm9yIjogc3JjLmxhc3RfbWVzc2FnZX0KCiAgICAgICAgcGFyc2VkID0gcGFyc2VfbTN1KHRleHQpCiAgICAgICAgYWRkZWQsIHVwZGF0ZWQgPSAwLCAwCiAgICAgICAgZm9yIHAgaW4gcGFyc2VkOgogICAgICAgICAgICBpZiBub3QgcC51cmw6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjaCA9ICgKICAgICAgICAgICAgICAgIGRiLnF1ZXJ5KENoYW5uZWwpCiAgICAgICAgICAgICAgICAuZmlsdGVyKENoYW5uZWwuc291cmNlX2lkID09IHNyYy5pZCwgQ2hhbm5lbC51cmwgPT0gcC51cmwpCiAgICAgICAgICAgICAgICAuZmlyc3QoKQogICAgICAgICAgICApCiAgICAgICAgICAgIG5vcm0gPSBub3JtYWxpemVfbmFtZShwLm5hbWUpCiAgICAgICAgICAgIGlmIGNoOgogICAgICAgICAgICAgICAgIyDlkIwgVVJMIOW3suWtmOWcqO+8muWIt+aWsOa6kOermeS/oeaBr++8jOS9huS4jeimhueblueUqOaIt+aUuei/h+eahCBuYW1lL2NhdGVnb3J5CiAgICAgICAgICAgICAgICBjaC5vcmlnX25hbWUgPSBwLm5hbWUKICAgICAgICAgICAgICAgIGNoLm5vcm1fbmFtZSA9IG5vcm0KICAgICAgICAgICAgICAgIGNoLmxvZ28gPSBwLmxvZ28gb3IgY2gubG9nbwogICAgICAgICAgICAgICAgY2gudHZnX2lkID0gcC50dmdfaWQgb3IgY2gudHZnX2lkCiAgICAgICAgICAgICAgICBpZiBub3QgY2guY2F0ZWdvcnkgYW5kIHAuZ3JvdXA6CiAgICAgICAgICAgICAgICAgICAgY2guY2F0ZWdvcnkgPSBwLmdyb3VwCiAgICAgICAgICAgICAgICBjaC5zb3VyY2VfbmFtZSA9IHNyYy5uYW1lCiAgICAgICAgICAgICAgICBjaC51cGRhdGVkX2F0ID0gZGF0ZXRpbWUudXRjbm93KCkKICAgICAgICAgICAgICAgIHVwZGF0ZWQgKz0gMQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgY2ggPSBDaGFubmVsKAogICAgICAgICAgICAgICAgICAgIG5hbWU9cC5uYW1lLAogICAgICAgICAgICAgICAgICAgIG5vcm1fbmFtZT1ub3JtLAogICAgICAgICAgICAgICAgICAgIG9yaWdfbmFtZT1wLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgdXJsPXAudXJsLAogICAgICAgICAgICAgICAgICAgIGxvZ289cC5sb2dvLAogICAgICAgICAgICAgICAgICAgIHR2Z19pZD1wLnR2Z19pZCwKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeT1wLmdyb3VwIG9yICLmnKrliIbnsbsiLAogICAgICAgICAgICAgICAgICAgIHNvdXJjZV9pZD1zcmMuaWQsCiAgICAgICAgICAgICAgICAgICAgc291cmNlX25hbWU9c3JjLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZD1UcnVlLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgZGIuYWRkKGNoKQogICAgICAgICAgICAgICAgYWRkZWQgKz0gMQogICAgICAgIHNyYy5sYXN0X2ZldGNoID0gZGF0ZXRpbWUudXRjbm93KCkKICAgICAgICBzcmMubGFzdF9zdGF0dXMgPSAib2siCiAgICAgICAgc3JjLmxhc3RfbWVzc2FnZSA9IGYiYWRkZWQge2FkZGVkfSwgdXBkYXRlZCB7dXBkYXRlZH0iCiAgICAgICAgc3JjLmNoYW5uZWxfY291bnQgPSBkYi5xdWVyeShDaGFubmVsKS5maWx0ZXIoQ2hhbm5lbC5zb3VyY2VfaWQgPT0gc3JjLmlkKS5jb3VudCgpCiAgICAgICAgZGIuY29tbWl0KCkKICAgICAgICBsb2cuaW5mbygiZmV0Y2ggc291cmNlICVzOiBhZGRlZD0lZCB1cGRhdGVkPSVkIiwgc3JjLm5hbWUsIGFkZGVkLCB1cGRhdGVkKQogICAgICAgIHJldHVybiB7ImFkZGVkIjogYWRkZWQsICJ1cGRhdGVkIjogdXBkYXRlZCwgInRvdGFsIjogbGVuKHBhcnNlZCl9CiAgICBmaW5hbGx5OgogICAgICAgIGRiLmNsb3NlKCkKCgpkZWYgZmV0Y2hfYWxsX2VuYWJsZWQoKSAtPiBsaXN0W2RpY3RdOgogICAgZGIgPSBTZXNzaW9uTG9jYWwoKQogICAgdHJ5OgogICAgICAgIGlkcyA9IFtzLmlkIGZvciBzIGluIGRiLnF1ZXJ5KFNvdXJjZSkuZmlsdGVyKFNvdXJjZS5lbmFibGVkID09IFRydWUpLmFsbCgpXSAgIyBub3FhOiBFNzEyCiAgICBmaW5hbGx5OgogICAgICAgIGRiLmNsb3NlKCkKICAgIHJldHVybiBbeyJzb3VyY2VfaWQiOiBpLCAqKmZldGNoX3NvdXJjZShpKX0gZm9yIGkgaW4gaWRzXQo=
+"""订阅源抓取：下载 M3U -> 解析 -> 按 (source_id, url) upsert 入库。"""
+import logging
+from datetime import datetime
+
+import httpx
+
+from .db import SessionLocal
+from .models import Source, Channel
+from .m3u import parse_m3u, normalize_name
+
+log = logging.getLogger("iptv.fetcher")
+TIMEOUT = 30
+
+
+def _http_client() -> httpx.Client:
+    kwargs = dict(
+        timeout=TIMEOUT,
+        follow_redirects=True,
+        headers={"User-Agent": "Mozilla/5.0 (iptv-manager)"},
+    )
+    try:
+        return httpx.Client(**kwargs)  # 优先走系统代理设置
+    except Exception as e:  # noqa: BLE001 - 代理环境变量损坏时直连
+        log.warning("proxy env unusable (%s), connecting directly", e)
+        return httpx.Client(**kwargs, trust_env=False)
+
+
+def fetch_source(source_id: int) -> dict:
+    """抓取单个源，返回 {"added": n, "updated": n, "total": n} 或 {"error": msg}。"""
+    db = SessionLocal()
+    try:
+        src = db.get(Source, source_id)
+        if not src:
+            return {"error": "source not found"}
+        try:
+            with _http_client() as client:
+                r = client.get(src.url)
+                r.raise_for_status()
+                text = r.text
+        except Exception as e:  # noqa: BLE001 - 抓取失败只记录
+            src.last_status = "error"
+            src.last_message = f"{type(e).__name__}: {e}"[:500]
+            src.last_fetch = datetime.utcnow()
+            db.commit()
+            log.warning("fetch source %s failed: %s", src.name, e)
+            return {"error": src.last_message}
+
+        parsed = parse_m3u(text)
+        added, updated = 0, 0
+        for p in parsed:
+            if not p.url:
+                continue
+            ch = (
+                db.query(Channel)
+                .filter(Channel.source_id == src.id, Channel.url == p.url)
+                .first()
+            )
+            norm = normalize_name(p.name)
+            if ch:
+                # 同 URL 已存在：刷新源站信息，但不覆盖用户改过的 name/category
+                ch.orig_name = p.name
+                ch.norm_name = norm
+                ch.logo = p.logo or ch.logo
+                ch.tvg_id = p.tvg_id or ch.tvg_id
+                if not ch.category and p.group:
+                    ch.category = p.group
+                ch.source_name = src.name
+                ch.updated_at = datetime.utcnow()
+                updated += 1
+            else:
+                ch = Channel(
+                    name=p.name,
+                    norm_name=norm,
+                    orig_name=p.name,
+                    url=p.url,
+                    logo=p.logo,
+                    tvg_id=p.tvg_id,
+                    category=p.group or "未分类",
+                    source_id=src.id,
+                    source_name=src.name,
+                    enabled=True,
+                )
+                db.add(ch)
+                added += 1
+        src.last_fetch = datetime.utcnow()
+        src.last_status = "ok"
+        src.last_message = f"added {added}, updated {updated}"
+        src.channel_count = db.query(Channel).filter(Channel.source_id == src.id).count()
+        db.commit()
+        log.info("fetch source %s: added=%d updated=%d", src.name, added, updated)
+        return {"added": added, "updated": updated, "total": len(parsed)}
+    finally:
+        db.close()
+
+
+def fetch_all_enabled() -> list[dict]:
+    db = SessionLocal()
+    try:
+        ids = [s.id for s in db.query(Source).filter(Source.enabled == True).all()]  # noqa: E712
+    finally:
+        db.close()
+    return [{"source_id": i, **fetch_source(i)} for i in ids]
