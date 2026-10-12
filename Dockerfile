@@ -1,1 +1,18 @@
-RlJPTSBweXRob246My4xMi1zbGltCgpFTlYgUFlUSE9ORE9OVFdSSVRFQllURUNPREU9MSBcCiAgICBQWVRIT05VTkJVRkZFUkVEPTEgXAogICAgREFUQV9ESVI9L2RhdGEgXAogICAgVFo9QXNpYS9TaGFuZ2hhaQoKV09SS0RJUiAvYXBwCkNPUFkgcmVxdWlyZW1lbnRzLnR4dCAuClJVTiBwaXAgaW5zdGFsbCAtLW5vLWNhY2hlLWRpciAtciByZXF1aXJlbWVudHMudHh0CgpDT1BZIGFwcCAuL2FwcApDT1BZIHN0YXRpYyAuL3N0YXRpYwoKVk9MVU1FIFsiL2RhdGEiXQpFWFBPU0UgODA4MAoKQ01EIFsidXZpY29ybiIsICJhcHAubWFpbjphcHAiLCAiLS1ob3N0IiwgIjAuMC4wLjAiLCAiLS1wb3J0IiwgIjgwODAiXQo=
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    DATA_DIR=/data \
+    TZ=Asia/Shanghai
+
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app ./app
+COPY static ./static
+
+VOLUME ["/data"]
+EXPOSE 8080
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
