@@ -1,1 +1,67 @@
-IiIiQVBTY2hlZHVsZXLvvJrmjInlkITmupAgaW50ZXJ2YWxfaG91cnMg5a6a5pe25oqT5Y+W44CCIiIiCmltcG9ydCBsb2dnaW5nCmZyb20gYXBzY2hlZHVsZXIuc2NoZWR1bGVycy5hc3luY2lvIGltcG9ydCBBc3luY0lPU2NoZWR1bGVyCmZyb20gYXBzY2hlZHVsZXIudHJpZ2dlcnMuaW50ZXJ2YWwgaW1wb3J0IEludGVydmFsVHJpZ2dlcgoKZnJvbSAuZGIgaW1wb3J0IFNlc3Npb25Mb2NhbApmcm9tIC5tb2RlbHMgaW1wb3J0IFNvdXJjZQpmcm9tIC5mZXRjaGVyIGltcG9ydCBmZXRjaF9zb3VyY2UKCmxvZyA9IGxvZ2dpbmcuZ2V0TG9nZ2VyKCJpcHR2LnNjaGVkdWxlciIpCnNjaGVkdWxlciA9IEFzeW5jSU9TY2hlZHVsZXIodGltZXpvbmU9IkFzaWEvU2hhbmdoYWkiKQpfSk9CX1BSRUZJWCA9ICJmZXRjaF9zb3VyY2VfIgoKCmRlZiBfam9iX2lkKHNvdXJjZV9pZDogaW50KSAtPiBzdHI6CiAgICByZXR1cm4gZiJ7X0pPQl9QUkVGSVh9e3NvdXJjZV9pZH0iCgoKZGVmIHNjaGVkdWxlX3NvdXJjZShzb3VyY2U6IFNvdXJjZSk6CiAgICAiIiLkuLrljZXkuKrmupDvvIjph43mlrDvvInlronmjpLlrprml7bku7vliqHjgIIiIiIKICAgIHJlbW92ZV9zb3VyY2Uoc291cmNlLmlkKQogICAgaWYgbm90IHNvdXJjZS5lbmFibGVkOgogICAgICAgIHJldHVybgogICAgaG91cnMgPSBtYXgoMSwgc291cmNlLmludGVydmFsX2hvdXJzIG9yIDEyKQogICAgc2NoZWR1bGVyLmFkZF9qb2IoCiAgICAgICAgZmV0Y2hfc291cmNlLAogICAgICAgIEludGVydmFsVHJpZ2dlcihob3Vycz1ob3VycyksCiAgICAgICAgaWQ9X2pvYl9pZChzb3VyY2UuaWQpLAogICAgICAgIGFyZ3M9W3NvdXJjZS5pZF0sCiAgICAgICAgcmVwbGFjZV9leGlzdGluZz1UcnVlLAogICAgICAgIG1pc2ZpcmVfZ3JhY2VfdGltZT02MDAsCiAgICAgICAgbWF4X2luc3RhbmNlcz0xLCAgIyDlkIzkuIDmupDkuI3lubblj5HmipPlj5YKICAgICAgICBjb2FsZXNjZT1UcnVlLCAgICAjIOmUmei/h+eahOinpuWPkeWQiOW5tuS4uuS4gOasoQogICAgKQogICAgbG9nLmluZm8oInNjaGVkdWxlZCBzb3VyY2UgJXMgZXZlcnkgJXNoIiwgc291cmNlLm5hbWUsIGhvdXJzKQoKCmRlZiByZW1vdmVfc291cmNlKHNvdXJjZV9pZDogaW50KToKICAgIGpvYiA9IHNjaGVkdWxlci5nZXRfam9iKF9qb2JfaWQoc291cmNlX2lkKSkKICAgIGlmIGpvYjoKICAgICAgICBqb2IucmVtb3ZlKCkKCgpkZWYgcmVmcmVzaF9hbGxfc2NoZWR1bGVzKCk6CiAgICAiIiLlkK/liqjml7bvvJrkuLrmiYDmnInlkK/nlKjnmoTmupDlronmjpLku7vliqHjgIIiIiIKICAgIGRiID0gU2Vzc2lvbkxvY2FsKCkKICAgIHRyeToKICAgICAgICBzb3VyY2VzID0gZGIucXVlcnkoU291cmNlKS5hbGwoKQogICAgZmluYWxseToKICAgICAgICBkYi5jbG9zZSgpCiAgICBmb3IgcyBpbiBzb3VyY2VzOgogICAgICAgIHRyeToKICAgICAgICAgICAgc2NoZWR1bGVfc291cmNlKHMpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOiAgIyBub3FhOiBCTEUwMDEKICAgICAgICAgICAgbG9nLndhcm5pbmcoInNjaGVkdWxlIHNvdXJjZSAlcyBmYWlsZWQ6ICVzIiwgcy5pZCwgZSkKCgpkZWYgc3RhcnQoKToKICAgIGlmIG5vdCBzY2hlZHVsZXIucnVubmluZzoKICAgICAgICByZWZyZXNoX2FsbF9zY2hlZHVsZXMoKQogICAgICAgIHNjaGVkdWxlci5zdGFydCgpCiAgICAgICAgbG9nLmluZm8oInNjaGVkdWxlciBzdGFydGVkIikKCgpkZWYgc2h1dGRvd24oKToKICAgIGlmIHNjaGVkdWxlci5ydW5uaW5nOgogICAgICAgIHNjaGVkdWxlci5zaHV0ZG93bih3YWl0PUZhbHNlKQo=
+"""APScheduler：按各源 interval_hours 定时抓取。"""
+import logging
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.triggers.interval import IntervalTrigger
+
+from .db import SessionLocal
+from .models import Source
+from .fetcher import fetch_source
+
+log = logging.getLogger("iptv.scheduler")
+scheduler = AsyncIOScheduler(timezone="Asia/Shanghai")
+_JOB_PREFIX = "fetch_source_"
+
+
+def _job_id(source_id: int) -> str:
+    return f"{_JOB_PREFIX}{source_id}"
+
+
+def schedule_source(source: Source):
+    """为单个源（重新）安排定时任务。"""
+    remove_source(source.id)
+    if not source.enabled:
+        return
+    hours = max(1, source.interval_hours or 12)
+    scheduler.add_job(
+        fetch_source,
+        IntervalTrigger(hours=hours),
+        id=_job_id(source.id),
+        args=[source.id],
+        replace_existing=True,
+        misfire_grace_time=600,
+        max_instances=1,  # 同一源不并发抓取
+        coalesce=True,    # 错过的触发合并为一次
+    )
+    log.info("scheduled source %s every %sh", source.name, hours)
+
+
+def remove_source(source_id: int):
+    job = scheduler.get_job(_job_id(source_id))
+    if job:
+        job.remove()
+
+
+def refresh_all_schedules():
+    """启动时：为所有启用的源安排任务。"""
+    db = SessionLocal()
+    try:
+        sources = db.query(Source).all()
+    finally:
+        db.close()
+    for s in sources:
+        try:
+            schedule_source(s)
+        except Exception as e:  # noqa: BLE001
+            log.warning("schedule source %s failed: %s", s.id, e)
+
+
+def start():
+    if not scheduler.running:
+        refresh_all_schedules()
+        scheduler.start()
+        log.info("scheduler started")
+
+
+def shutdown():
+    if scheduler.running:
+        scheduler.shutdown(wait=False)
