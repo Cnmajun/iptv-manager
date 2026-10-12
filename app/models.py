@@ -1,1 +1,50 @@
-IiIi5pWw5o2u5qih5Z6L77ya6K6i6ZiF5rqQIC8g6aKR6YGTIC8g6L6T5Ye66YWN572u44CCIiIiCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gc3FsYWxjaGVteSBpbXBvcnQgQ29sdW1uLCBJbnRlZ2VyLCBTdHJpbmcsIEJvb2xlYW4sIERhdGVUaW1lLCBUZXh0LCBGb3JlaWduS2V5CmZyb20gLmRiIGltcG9ydCBCYXNlCgoKY2xhc3MgU291cmNlKEJhc2UpOgogICAgIiIi5LiK5ri4IE0zVSDorqLpmIXmupDjgIIiIiIKICAgIF9fdGFibGVuYW1lX18gPSAic291cmNlcyIKCiAgICBpZCA9IENvbHVtbihJbnRlZ2VyLCBwcmltYXJ5X2tleT1UcnVlKQogICAgbmFtZSA9IENvbHVtbihTdHJpbmcoMTI4KSwgbnVsbGFibGU9RmFsc2UpCiAgICB1cmwgPSBDb2x1bW4oVGV4dCwgbnVsbGFibGU9RmFsc2UpCiAgICBlbmFibGVkID0gQ29sdW1uKEJvb2xlYW4sIGRlZmF1bHQ9VHJ1ZSkKICAgIGludGVydmFsX2hvdXJzID0gQ29sdW1uKEludGVnZXIsIGRlZmF1bHQ9MTIpICAjIOaKk+WPlumXtOmalO+8iOWwj+aXtu+8iQogICAgbGFzdF9mZXRjaCA9IENvbHVtbihEYXRlVGltZSwgbnVsbGFibGU9VHJ1ZSkKICAgIGxhc3Rfc3RhdHVzID0gQ29sdW1uKFN0cmluZygzMiksIGRlZmF1bHQ9Im5ldmVyIikgICMgb2sgLyBlcnJvciAvIG5ldmVyCiAgICBsYXN0X21lc3NhZ2UgPSBDb2x1bW4oU3RyaW5nKDUxMiksIGRlZmF1bHQ9IiIpCiAgICBjaGFubmVsX2NvdW50ID0gQ29sdW1uKEludGVnZXIsIGRlZmF1bHQ9MCkKCgpjbGFzcyBDaGFubmVsKEJhc2UpOgogICAgIiIi6aKR6YGT44CCbmFtZSDkuLrlsZXnpLrlkI3vvIjlj6/mlLnvvInvvIxvcmlnX25hbWUg5Li65rqQ56uZ5Y6f5ZCN44CCIiIiCiAgICBfX3RhYmxlbmFtZV9fID0gImNoYW5uZWxzIgoKICAgIGlkID0gQ29sdW1uKEludGVnZXIsIHByaW1hcnlfa2V5PVRydWUpCiAgICBuYW1lID0gQ29sdW1uKFN0cmluZygyNTYpLCBudWxsYWJsZT1GYWxzZSwgaW5kZXg9VHJ1ZSkKICAgIG5vcm1fbmFtZSA9IENvbHVtbihTdHJpbmcoMjU2KSwgbnVsbGFibGU9RmFsc2UsIGluZGV4PVRydWUpICAjIOW9kuS4gOWMluWQje+8jOeUqOS6juWQjOWQjeWQiOW5tgogICAgb3JpZ19uYW1lID0gQ29sdW1uKFN0cmluZygyNTYpLCBkZWZhdWx0PSIiKQogICAgdXJsID0gQ29sdW1uKFRleHQsIG51bGxhYmxlPUZhbHNlKQogICAgbG9nbyA9IENvbHVtbihUZXh0LCBkZWZhdWx0PSIiKQogICAgdHZnX2lkID0gQ29sdW1uKFN0cmluZygyNTYpLCBkZWZhdWx0PSIiKQogICAgY2F0ZWdvcnkgPSBDb2x1bW4oU3RyaW5nKDEyOCksIGRlZmF1bHQ9IiIsIGluZGV4PVRydWUpICAjIOW9kuexu++8iOWPr+aUue+8iQogICAgc291cmNlX2lkID0gQ29sdW1uKEludGVnZXIsIEZvcmVpZ25LZXkoInNvdXJjZXMuaWQiKSwgbnVsbGFibGU9VHJ1ZSkKICAgIHNvdXJjZV9uYW1lID0gQ29sdW1uKFN0cmluZygxMjgpLCBkZWZhdWx0PSIiKQogICAgZW5hYmxlZCA9IENvbHVtbihCb29sZWFuLCBkZWZhdWx0PVRydWUsIGluZGV4PVRydWUpCiAgICB1cGRhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lLCBkZWZhdWx0PWRhdGV0aW1lLnV0Y25vdykKICAgICMg5ZCI5bm25pe25L+d55WZ5LiL5p2l55qE5aSH55So5pKt5pS+5Zyw5Z2A77yISlNPTiDmlbDnu4TvvInvvIzkuLvmupDlpLHmlYjlj6/miYvliqjliIfmjaIKICAgIGJhY2t1cF91cmxzID0gQ29sdW1uKFRleHQsIGRlZmF1bHQ9IltdIikKCgpjbGFzcyBQbGF5bGlzdChCYXNlKToKICAgICIiIuWPr+WumuWItueahOi+k+WHuuiuoumYhemFjee9ruOAgiIiIgogICAgX190YWJsZW5hbWVfXyA9ICJwbGF5bGlzdHMiCgogICAgaWQgPSBDb2x1bW4oSW50ZWdlciwgcHJpbWFyeV9rZXk9VHJ1ZSkKICAgIG5hbWUgPSBDb2x1bW4oU3RyaW5nKDEyOCksIG51bGxhYmxlPUZhbHNlKQogICAgIyDov4fmu6TmnaHku7YgSlNPTu+8mnsiY2F0ZWdvcmllcyI6IFsuLi5dLCAic2VhcmNoIjogIi4uLiIsICJvbmx5X2VuYWJsZWQiOiB0cnVlLCAic291cmNlX2lkcyI6IFsuLi5dfQogICAgZmlsdGVycyA9IENvbHVtbihUZXh0LCBkZWZhdWx0PSJ7fSIpCiAgICBjcmVhdGVkX2F0ID0gQ29sdW1uKERhdGVUaW1lLCBkZWZhdWx0PWRhdGV0aW1lLnV0Y25vdykK
+"""数据模型：订阅源 / 频道 / 输出配置。"""
+from datetime import datetime
+from sqlalchemy import Column, Integer, String, Boolean, DateTime, Text, ForeignKey
+from .db import Base
+
+
+class Source(Base):
+    """上游 M3U 订阅源。"""
+    __tablename__ = "sources"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(128), nullable=False)
+    url = Column(Text, nullable=False)
+    enabled = Column(Boolean, default=True)
+    interval_hours = Column(Integer, default=12)  # 抓取间隔（小时）
+    last_fetch = Column(DateTime, nullable=True)
+    last_status = Column(String(32), default="never")  # ok / error / never
+    last_message = Column(String(512), default="")
+    channel_count = Column(Integer, default=0)
+
+
+class Channel(Base):
+    """频道。name 为展示名（可改），orig_name 为源站原名。"""
+    __tablename__ = "channels"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(256), nullable=False, index=True)
+    norm_name = Column(String(256), nullable=False, index=True)  # 归一化名，用于同名合并
+    orig_name = Column(String(256), default="")
+    url = Column(Text, nullable=False)
+    logo = Column(Text, default="")
+    tvg_id = Column(String(256), default="")
+    category = Column(String(128), default="", index=True)  # 归类（可改）
+    source_id = Column(Integer, ForeignKey("sources.id"), nullable=True)
+    source_name = Column(String(128), default="")
+    enabled = Column(Boolean, default=True, index=True)
+    updated_at = Column(DateTime, default=datetime.utcnow)
+    # 合并时保留下来的备用播放地址（JSON 数组），主源失效可手动切换
+    backup_urls = Column(Text, default="[]")
+
+
+class Playlist(Base):
+    """可定制的输出订阅配置。"""
+    __tablename__ = "playlists"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(128), nullable=False)
+    # 过滤条件 JSON：{"categories": [...], "search": "...", "only_enabled": true, "source_ids": [...]}
+    filters = Column(Text, default="{}")
+    created_at = Column(DateTime, default=datetime.utcnow)
