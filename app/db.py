@@ -1,1 +1,20 @@
-IiIiU1FMaXRlIGVuZ2luZSAvIHNlc3Npb24gZmFjdG9yeS4gREFUQV9ESVIg5Y+v6YCa6L+H546v5aKD5Y+Y6YeP6KaG55uW44CCIiIiCmltcG9ydCBvcwpmcm9tIHNxbGFsY2hlbXkgaW1wb3J0IGNyZWF0ZV9lbmdpbmUKZnJvbSBzcWxhbGNoZW15Lm9ybSBpbXBvcnQgc2Vzc2lvbm1ha2VyLCBkZWNsYXJhdGl2ZV9iYXNlCgpEQVRBX0RJUiA9IG9zLmVudmlyb24uZ2V0KCJEQVRBX0RJUiIsIG9zLnBhdGguam9pbihvcy5wYXRoLmRpcm5hbWUoX19maWxlX18pLCAiLi4iLCAiZGF0YSIpKQpvcy5tYWtlZGlycyhEQVRBX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKCkRCX1BBVEggPSBvcy5wYXRoLmpvaW4oREFUQV9ESVIsICJpcHR2LmRiIikKZW5naW5lID0gY3JlYXRlX2VuZ2luZShmInNxbGl0ZTovLy97REJfUEFUSH0iLCBjb25uZWN0X2FyZ3M9eyJjaGVja19zYW1lX3RocmVhZCI6IEZhbHNlfSkKU2Vzc2lvbkxvY2FsID0gc2Vzc2lvbm1ha2VyKGJpbmQ9ZW5naW5lLCBhdXRvZmx1c2g9RmFsc2UsIGF1dG9jb21taXQ9RmFsc2UpCkJhc2UgPSBkZWNsYXJhdGl2ZV9iYXNlKCkKCgpkZWYgZ2V0X2RiKCk6CiAgICBkYiA9IFNlc3Npb25Mb2NhbCgpCiAgICB0cnk6CiAgICAgICAgeWllbGQgZGIKICAgIGZpbmFsbHk6CiAgICAgICAgZGIuY2xvc2UoKQo=
+"""SQLite engine / session factory. DATA_DIR 可通过环境变量覆盖。"""
+import os
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, declarative_base
+
+DATA_DIR = os.environ.get("DATA_DIR", os.path.join(os.path.dirname(__file__), "..", "data"))
+os.makedirs(DATA_DIR, exist_ok=True)
+
+DB_PATH = os.path.join(DATA_DIR, "iptv.db")
+engine = create_engine(f"sqlite:///{DB_PATH}", connect_args={"check_same_thread": False})
+SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
+Base = declarative_base()
+
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
